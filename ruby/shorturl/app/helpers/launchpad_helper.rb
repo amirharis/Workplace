@@ -1,2 +1,0 @@
-module LaunchpadHelper
-end
