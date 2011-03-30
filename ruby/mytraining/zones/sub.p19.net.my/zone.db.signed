@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:17 2009
+; dnssec_signzone version 9.6.1
+sub.p19.net.my.		3600	IN SOA	ns1.sub.p19.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					atSkGU1VcEdOlhKnSsJM9fxxRc6pmoqCr7gS
+					Gm6SEvVvwr2qCLgDewaoKyED1WqVI2dEkZWV
+					eFDBDv/gg0xpnQ== )
+			3600	NS	ns1.sub.p19.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					FEY75Efbw579z/CXN7LzbEo5Zz050DyNBSMV
+					/ppDuL6bc4sDk+e3pZft60TzEXs7lKgtixis
+					uwsNboqyG58PcA== )
+			3600	NSEC	ns1.sub.p19.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					PovCzZ/7UDm0hSrcxzOwztTjxBDznIjeB8Av
+					OKbb75yIXEbR6wR2BMEH6OALAvEp74yVEEH8
+					lON0NxlW95HgBQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABrmSXLIgZr821lcWAbwILKsGOehc0
+					BuK/5uUsFJWe2iqK8BoNyPEtEQx0+oWfK3ZO
+					c7rwOoDkOowrT9Asn0UG4w==
+					) ; key id = 51569
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABC/WkQDn7NhHHX2MxtmHsqWj0B1JU
+					hzVQPn/St+U2AoRTbX1Z1/eus82QjwnlWzKU
+					EIUDY/e1wIsA+q11G5HpZKzmh8WvudpCL2sD
+					IwQaqrZGwXgoo1FwJd8uAHpy/40uueayVuc5
+					gcU8qf5Lzl+HzGNBetOYSKseN/YJiHijQb7m
+					8jPpy3RkOU1qaVr5EkXrzaGtKG38Suf/zUZk
+					7ahbKEfYqQ==
+					) ; key id = 65364
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					TK36R4GyBUkgBMhDTO73Qiml4Z5jcg1p6KjF
+					GXZUjpwmbtL0kKINnU8K80oyuBk3mFDZEmS7
+					T2qjKWoF4yVd6g== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071817 (
+					20091118071817 65364 sub.p19.net.my.
+					ANCIPsSn4rlTgyqfTN/ZdWsCMLIF0kjqSUfn
+					H9TG39//rXe2Y15A41NTzBKv8GQ/oO6q3+YP
+					TAW8k+K4nQMfhFW7lqCKKPaNf2NzektLhBU+
+					lR5PSKVtkEDyg9QzPKkTy8Q0UeOa3tr7wn9S
+					j6SKopAiDfE16bnMcDCEyyWB3oje+OiOJYmL
+					VDhp5TAojN0xNvNsX3F8pnIFqZ4HRVtgIqrn
+					mw== )
+ns1.sub.p19.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					XcWi1xrD9QLZrpYCVvpTZscIXsja0hjAr83P
+					W2sAY0Lq+YgqVdRomcH8vJ6D0b+lm9N21EzV
+					MDXG/q+bRwhQMQ== )
+			3600	NSEC	test.sub.p19.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					JTBhNO5pWfzn+/ujj8dmrW//rU642+k8xaL0
+					XBTtYthJaZ6xLE2aoiMA+KUlR1tU99totkmq
+					XtHtdSsDQbSHEA== )
+test.sub.p19.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					hQObeqJzd2ROyFXUZUnK0u/esFVMkwRWOByk
+					UDyIsb/eXVxc72rH52MFbOzKhvhfYJIU+hO3
+					MZPR/P87w65mRQ== )
+			3600	NSEC	sub.p19.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071817 (
+					20091118071817 51569 sub.p19.net.my.
+					Pattwdx4uVv1ow0sb7f+jKQn45YA8BkeExHA
+					c6/eMxXuVDvOkAIOrU7x/JGiKqS8yExhMEPP
+					t82CwFzvgoNncA== )

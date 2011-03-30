@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p27.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABCn7RFWqkZGeLX8dveBjwvBPC2Ndi
+					Bvu/nUBKXhyCONHhUujKyWVs+BMheFSLP9QL
+					wapTC/slA09ahYfyozJDjQ/92+jRO4f/2BKm
+					gmfIrpHNtrO618bhTpsGYVm3j0ToapeL9QrH
+					0YdRKF5Pi6jVasJdNe2UmP0h15ixBr24EsqF
+					eP+jXvmrlLv1XT/quk/0S8NqQ3XxrRwPFfuz
+					qm5eUTFeeQ==
+					) ; key id = 3273

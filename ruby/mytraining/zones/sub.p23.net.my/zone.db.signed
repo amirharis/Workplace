@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:46 2009
+; dnssec_signzone version 9.6.1
+sub.p23.net.my.		3600	IN SOA	ns1.sub.p23.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					gsryGMpn3DICgQD4iu/wLYH19JaR3pnNeRPQ
+					1Ci7Icst7biTkYB+KO9JBxNvShdaZkGbFa0R
+					no4220h7taoRpQ== )
+			3600	NS	ns1.sub.p23.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					LCulnQYT22OR14jFlCwscZpOcgx3ocOROF74
+					GhuLsNpEyrUXVJVz5J828xKBNYv+FS+jQ2US
+					Q8r+l3wc5pU0cw== )
+			3600	NSEC	ns1.sub.p23.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					bvnWzW9g0N/gvHyaGG+PvZFQ7BlONDAD8veV
+					egm0LQUn7o2E/46a6pKqR0xiFwI09grHK8Vk
+					S52VLssYMsLyHA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABu8/zQKBIjbOtpoZEpw3HSTRPKUP/
+					0IqHCrd54I4OlvHLadW7oUSJPcRuSlbpAAzC
+					7akKZiziMgpMiPDg2ZkOmQ==
+					) ; key id = 26273
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDwhnULNdoSRiG45uLKtGdlhDitZm
+					wzxuEtYS4Eu9BHfxfzGjo23wKJMMw17EX4tE
+					8EjUZpJ6lCPM+SCclm7/WpTmNjmT6B0BAHA2
+					sC5H4HsgtvdQ2afkgIgHMDSvqKM4heG3By+1
+					miBCj8AiYMwrzMSvTEJRBbSNxMuJKcEiWu5c
+					D+suJ1RphBo3POaklUw0xIYjdurnc9+GGgNv
+					t6jadrmDgQ==
+					) ; key id = 30201
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					CQiByfZQ5Xw8X74+ig//LUUgJbRnFpIo3uEs
+					g1CrUxd7tWySqVDHvvgvmPrJ9/SCDPcClEfs
+					d1Qd2BD8kP65Fw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071846 (
+					20091118071846 30201 sub.p23.net.my.
+					DKMBOtMBVioavjsfDjLoS4CU6PwMAzOb/OvI
+					0bi5lUw/UOT3YfG2/sv4twBo6j8bzYRP4gHT
+					i9xnZKnPPNZSsJhR364zYSUT3VbquSBRvgRB
+					oAm7NcNO3wuP8FMjPfjx33660QT78ghgAth0
+					BrD+zTH0LRTCSry2CfEBVH4aXid2ejV3EMhK
+					juPvtjKPn9zf66jwTegqERThKcC3Ht1qg/nB
+					hA== )
+ns1.sub.p23.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					kyTNs/Ii4tK8TN0l5BSpyQ8UZJemdcPQNGer
+					ROKe9TjI93uL/EAQePg7ShGBI3BgcqDNPUXB
+					un63CrJ3d8ARrw== )
+			3600	NSEC	test.sub.p23.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					EHY3XF/mWsRxUEth5iCJkr8F7MMnZhkw/Sj+
+					HDiQ89zlU4nT/zG4zxfsNBhVannZnJ979VyC
+					HpA/iAB3vBcWLw== )
+test.sub.p23.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					jQBg9g/lZOY6u16BGtsx6GqJRd4HJGtUnLHO
+					odE0b5QLJLDSD7i92Gqw0lP7a3r7PCeAcEUo
+					xTUxJBXspuGteQ== )
+			3600	NSEC	sub.p23.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071846 (
+					20091118071846 26273 sub.p23.net.my.
+					IKTjdG1XS1t9yvx6zC/ZfVxtGU35htk7/DDW
+					ebM8X0Jj3j0DY/U03vduTsAm8cGbr/Kvh89e
+					rdu3+fK7bztYGg== )

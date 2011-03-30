@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:47 2009
+; dnssec_signzone version 9.6.1
+sub.p21.net.my.		3600	IN SOA	ns1.sub.p21.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					h6SpMWs9Qza7zeX9CQKXVb3vjTHTYU0EKRw+
+					2Gj0YUh1B8QdCpXNdL0s2BLN1fpneZ6ah1q5
+					eO9HNIp4KczijA== )
+			3600	NS	ns1.sub.p21.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					IK8iMPqbbG27RMN6rSO7ue3aO3AjYkEgaL82
+					uZahIOz1XnczDZC/+NBp/PzrysaK3s2bFo6c
+					dt8+j561J5FYaw== )
+			3600	NSEC	ns1.sub.p21.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					kPvud/it+5hAJr8gmFfcIhsOWlibgfpb5luX
+					eGksMdOT8AnsUkJJirP2dfRXCJqROuB+mozs
+					nrhuYug8MgiQzg== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABrQ3oJ12o+SC8ObHnRSG9/NyyyfFv
+					wFe/fCK5JiLF3WIozeMVZlByqWkOZTJS9dhx
+					YNyPJPW32QqkiSXFU/Vydw==
+					) ; key id = 14303
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDBQ49dT2sxIdXbjv5qPYlGd1IZmD
+					gvq5N0rQ50zwLvE3yo9p6GoNvfL8IcC+EYmD
+					XYyHcNbaw/M9X1aiW+7/fPd+TW11sSCjn7BO
+					TTmaIiPz8Jt/xJppaNJrBIJfF4MoNiBL+y0P
+					B5payqoUoTEgDHO28khZEZ+d9vz5FBg4wzA5
+					pxl+2t0y6fcqhT6miTAeisRZJ/8OA9TQDJpE
+					+6NoHNSvaw==
+					) ; key id = 27420
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					fNUn0xv6KVpRrcQFo3w5Z0XLTK3g4dp+pXeK
+					ULrHB8armb/HhXjKQmX5+2lS/CKhm+F9RAwh
+					8FYw19HBd6HNpw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071847 (
+					20091118071847 27420 sub.p21.net.my.
+					CKMgm0qx3JFhg50mITnLucCmyRZ5rFv1uUID
+					SQU6XkLa8kHPNZfORhuWgVNcK9XK7vRcyWEu
+					a1E/K7I3cxGug8RCmTgK939/8OIAPpy4ww4V
+					vyceZEfjWSb7nsPzOp9y7nJG7R+fFlNiB+pd
+					nMigWpB5esgqZjOHkcdwEIBduPoH+7BrLeb7
+					10PRigG8aDhYqVnQz/CB/assrsiRTPkt8WpO
+					xA== )
+ns1.sub.p21.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					QRRQuVrWIlpnxxum9wuT3PdPlkAW5SKxwY+b
+					jMvlmxYicJTIiRiXuOlpR10RKCPQP4fjfWPf
+					4U8Y7iV29D62gw== )
+			3600	NSEC	test.sub.p21.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					f93RXzLjiG40V5LHPU7heOitzfD6EO6f4o8Z
+					cflI2yXWhO3fr9kAco4RbDJOJZJ9puzpo3bg
+					+ClSjBnUSkZj+A== )
+test.sub.p21.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					kXc8nHBGJF0cIyPflEw7celw8BJh83kCFdgn
+					LJrzSEP1hsGvqSm96k4G/Vc5oD0qHdqRyCiL
+					6nQqAFAoLjChFQ== )
+			3600	NSEC	sub.p21.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071847 (
+					20091118071847 14303 sub.p21.net.my.
+					Pe7Wt/jpDFSXyv4Y2/DPEYUU/lNDKvBDrRIU
+					G/DUxRwk29zD5nxpwKTj7jajc+ySgO0eBFhr
+					gEdvZ7NQ0iNW4w== )

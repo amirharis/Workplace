@@ -1,0 +1,847 @@
+12-Nov-2009 12:35:46.919 client 127.0.0.1#32784: query: p.my IN A +
+12-Nov-2009 12:35:46.919 createfetch: p.my A
+12-Nov-2009 12:35:46.919 createfetch: . NS
+12-Nov-2009 12:35:46.920 network unreachable resolving './NS/IN': 2001:500:2f::f#53
+12-Nov-2009 12:35:46.920 network unreachable resolving './NS/IN': 2001:7fd::1#53
+12-Nov-2009 12:35:46.920 network unreachable resolving './NS/IN': 2001:dc3::35#53
+12-Nov-2009 12:35:47.733 createfetch: ns1.fastpark.net A
+12-Nov-2009 12:35:47.733 createfetch: ns1.fastpark.net AAAA
+12-Nov-2009 12:35:47.733 createfetch: ns2.fastpark.net A
+12-Nov-2009 12:35:47.733 createfetch: ns2.fastpark.net AAAA
+12-Nov-2009 12:35:48.039 network unreachable resolving 'ns2.fastpark.net/A/IN': 2001:503:231d::2:30#53
+12-Nov-2009 12:35:48.603 createfetch: ns1.namedrive.com A
+12-Nov-2009 12:35:48.603 createfetch: ns1.namedrive.com AAAA
+12-Nov-2009 12:35:48.603 createfetch: ns2.namedrive.com A
+12-Nov-2009 12:35:48.603 createfetch: ns2.namedrive.com AAAA
+12-Nov-2009 12:35:48.603 createfetch: ns3.namedrive.com A
+12-Nov-2009 12:35:48.603 createfetch: ns3.namedrive.com AAAA
+12-Nov-2009 12:35:48.604 network unreachable resolving 'ns2.namedrive.com/A/IN': 2001:500:1::803f:235#53
+12-Nov-2009 12:35:48.605 network unreachable resolving 'ns3.namedrive.com/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 12:35:48.649 network unreachable resolving 'ns3.namedrive.com/A/IN': 2001:503:a83e::2:30#53
+12-Nov-2009 12:39:26.628 client 127.0.0.1#32784: query: q.my IN A +
+12-Nov-2009 12:39:35.702 client 127.0.0.1#32784: query: q.my IN A +
+12-Nov-2009 12:39:38.191 no longer listening on ::#53
+12-Nov-2009 12:39:38.191 no longer listening on 127.0.0.1#53
+12-Nov-2009 12:39:38.191 no longer listening on 192.168.118.138#53
+12-Nov-2009 12:39:55.797 client 127.0.0.1#32784: query: q.my IN A +
+12-Nov-2009 12:40:05.206 client 127.0.0.1#32784: query: www.q.my IN A +
+12-Nov-2009 12:40:12.075 client 127.0.0.1#32784: query: q.my IN SOA +
+12-Nov-2009 12:40:35.787 client 127.0.0.1#32784: query: test.my IN A +
+12-Nov-2009 12:40:35.787 createfetch: test.my A
+12-Nov-2009 12:40:35.787 createfetch: . NS
+12-Nov-2009 12:40:35.788 network unreachable resolving './NS/IN': 2001:7fd::1#53
+12-Nov-2009 12:40:35.788 network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 12:40:36.588 network unreachable resolving './NS/IN': 2001:500:1::803f:235#53
+12-Nov-2009 12:40:37.668 createfetch: ns1.dnsvine.com A
+12-Nov-2009 12:40:37.668 createfetch: ns1.dnsvine.com AAAA
+12-Nov-2009 12:40:37.668 createfetch: ns2.dnsvine.com A
+12-Nov-2009 12:40:37.668 createfetch: ns2.dnsvine.com AAAA
+12-Nov-2009 12:40:39.043 lame server resolving 'test.my' (in 'test.my'?): 207.210.93.132#53
+12-Nov-2009 12:40:39.055 lame server resolving 'test.my' (in 'test.my'?): 116.0.102.22#53
+12-Nov-2009 12:40:41.211 client 127.0.0.1#32784: query: test.q.my IN A +
+12-Nov-2009 12:42:13.710 no longer listening on ::#53
+12-Nov-2009 12:42:13.710 no longer listening on 127.0.0.1#53
+12-Nov-2009 12:42:13.710 no longer listening on 192.168.118.138#53
+12-Nov-2009 12:43:29.222 zone q.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 12:43:29.222 createfetch: ns1.net.my A
+12-Nov-2009 12:43:29.222 createfetch: ns1.net.my AAAA
+12-Nov-2009 12:43:29.223 zone oh.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 12:43:29.224 createfetch: . NS
+12-Nov-2009 12:43:29.225 network unreachable resolving 'ns1.net.my/A/IN': 2001:500:2f::f#53
+12-Nov-2009 12:43:29.226 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 12:43:29.478 createfetch: ns7.jaring.my A
+12-Nov-2009 12:43:29.478 createfetch: ns7.jaring.my AAAA
+12-Nov-2009 12:43:29.478 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:328:200:48::400#53
+12-Nov-2009 12:44:09.772 client 127.0.0.1#32784: query: oh.my IN A +
+12-Nov-2009 12:44:27.761 zone myoh.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 12:44:36.888 client 127.0.0.1#32784: query: myoh.my IN A +
+12-Nov-2009 12:45:28.351 zone kojex.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 12:45:28.351 createfetch: ns1.net.my A
+12-Nov-2009 12:45:28.351 createfetch: ns1.net.my AAAA
+12-Nov-2009 12:45:28.351 createfetch: . NS
+12-Nov-2009 12:45:37.861 client 127.0.0.1#32784: query: kojex.my IN A +
+12-Nov-2009 12:45:46.353 client 127.0.0.1#32784: query: www.kojex.my IN A +
+12-Nov-2009 12:46:03.021 client 127.0.0.1#32784: query: ali.my IN A +
+12-Nov-2009 12:46:03.021 createfetch: ali.my A
+12-Nov-2009 12:46:03.021 createfetch: . NS
+12-Nov-2009 12:46:05.606 createfetch: ns1.ali.my AAAA
+12-Nov-2009 12:46:05.606 createfetch: ns2.ali.my AAAA
+12-Nov-2009 12:46:05.940 network unreachable resolving 'ns2.ali.my/AAAA/IN': 2001:328:1000:3::5#53
+12-Nov-2009 12:46:05.940 network unreachable resolving 'ns2.ali.my/AAAA/IN': 2405:3000:3:60::21#53
+12-Nov-2009 12:46:05.940 network unreachable resolving 'ns2.ali.my/AAAA/IN': 2001:660:3006:1::1:1#53
+12-Nov-2009 12:46:22.127 zone ali.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 12:46:22.127 createfetch: ns1.net.my A
+12-Nov-2009 12:46:22.127 createfetch: ns1.net.my AAAA
+12-Nov-2009 12:46:26.029 client 127.0.0.1#32784: query: ali.my IN A +
+12-Nov-2009 14:32:25.750 zone ahmad.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 14:32:25.750 createfetch: ns1.net.my A
+12-Nov-2009 14:32:25.750 createfetch: ns1.net.my AAAA
+12-Nov-2009 14:32:25.750 createfetch: . NS
+12-Nov-2009 14:47:47.641 client 127.0.0.1#32784: query: muhd.my IN A +
+12-Nov-2009 14:47:47.641 createfetch: muhd.my A
+12-Nov-2009 14:47:47.641 createfetch: . NS
+12-Nov-2009 14:47:47.899 network unreachable resolving 'muhd.my/A/IN': 2001:328:1000:3::5#53
+12-Nov-2009 14:47:52.695 client 127.0.0.1#32784: query: test.muhd.my IN A +
+12-Nov-2009 14:47:52.695 createfetch: test.muhd.my A
+12-Nov-2009 14:47:53.497 network unreachable resolving 'test.muhd.my/A/IN': 2001:660:3006:1::1:1#53
+12-Nov-2009 14:48:00.017 client 127.0.0.1#32784: query: ns1.muhd.my IN A +
+12-Nov-2009 14:48:00.017 createfetch: ns1.muhd.my A
+12-Nov-2009 14:48:07.676 client 127.0.0.1#32784: query: test.muhd.my IN A +
+12-Nov-2009 14:48:08.703 client 127.0.0.1#32784: query: test.muhd.my IN A +
+12-Nov-2009 14:48:52.906 zone muhd.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 14:48:52.906 createfetch: ns1.net.my A
+12-Nov-2009 14:48:52.906 createfetch: ns1.net.my AAAA
+12-Nov-2009 14:49:01.086 client 127.0.0.1#32784: query: muhd.my IN A +
+12-Nov-2009 14:49:23.744 client 127.0.0.1#32784: query: child.p3.net.my IN A +
+12-Nov-2009 14:49:23.744 createfetch: child.p3.net.my A
+12-Nov-2009 14:49:23.744 createfetch: . NS
+12-Nov-2009 14:49:23.744 network unreachable resolving 'child.p3.net.my/A/IN': 2001:500:2f::f#53
+12-Nov-2009 14:49:23.744 network unreachable resolving 'child.p3.net.my/A/IN': 2001:503:c27::2:30#53
+12-Nov-2009 14:49:23.745 network unreachable resolving 'child.p3.net.my/A/IN': 2001:dc3::35#53
+12-Nov-2009 14:49:23.745 network unreachable resolving 'child.p3.net.my/A/IN': 2001:500:1::803f:235#53
+12-Nov-2009 14:49:24.312 createfetch: ns7.jaring.my A
+12-Nov-2009 14:49:24.312 createfetch: ns7.jaring.my AAAA
+12-Nov-2009 14:49:24.312 network unreachable resolving 'ns7.jaring.my/A/IN': 2405:3000:3:60::21#53
+12-Nov-2009 14:49:36.012 zone child.p3.net.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 14:49:36.012 createfetch: ns1.net.my A
+12-Nov-2009 14:49:36.012 createfetch: ns1.net.my AAAA
+12-Nov-2009 14:49:36.013 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:328:200:48::400#53
+12-Nov-2009 14:49:38.183 client 127.0.0.1#32784: query: child.p3.net.my IN A +
+12-Nov-2009 14:49:44.700 client 127.0.0.1#32784: query: child.p3.net.my IN ANY +
+12-Nov-2009 14:49:44.769 client 127.0.0.1#32894: query: child.p3.net.my IN ANY +
+12-Nov-2009 15:07:58.493 zone muhdx.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 15:07:58.493 createfetch: ns1.net.my A
+12-Nov-2009 15:07:58.493 createfetch: ns1.net.my AAAA
+12-Nov-2009 15:07:58.494 createfetch: . NS
+12-Nov-2009 15:07:58.496 network unreachable resolving 'ns1.net.my/A/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:07:59.300 network unreachable resolving 'ns1.net.my/A/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:00.103 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:00.103 network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:00.907 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:00.907 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:04.119 network unreachable resolving 'ns1.net.my/A/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:06.527 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:07.331 network unreachable resolving 'ns1.net.my/A/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:08.135 network unreachable resolving 'ns1.net.my/A/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:08.939 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:08.939 network unreachable resolving 'ns1.net.my/A/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:08.939 createfetch: B.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.939 createfetch: C.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.939 createfetch: D.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.939 createfetch: E.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.939 createfetch: G.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.940 createfetch: I.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.940 createfetch: L.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:08:08.940 network unreachable resolving './NS/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:08.940 network unreachable resolving './NS/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:08.940 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:08.940 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:08.941 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:08.941 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:08.941 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:08.942 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:08.942 network unreachable resolving './NS/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:08.942 network unreachable resolving './NS/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:08.942 network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:08.942 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:08.943 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:09.743 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:10.547 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:10.547 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:12.955 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:12.955 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:13.756 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:15.364 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:17.768 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:17.768 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:17.768 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:18.571 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:18.571 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:18.571 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:18.571 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:19.375 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:08:19.376 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:08:19.377 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:14:52.462 zone anak.amir.net.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 15:14:52.462 createfetch: ns1.net.my A
+12-Nov-2009 15:14:52.462 createfetch: ns1.net.my AAAA
+12-Nov-2009 15:14:52.462 createfetch: . NS
+12-Nov-2009 15:14:52.463 network unreachable resolving 'ns1.net.my/A/IN': 2001:500:2f::f#53
+12-Nov-2009 15:14:54.068 network unreachable resolving './NS/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:14:54.872 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:14:55.676 network unreachable resolving 'ns1.net.my/A/IN': 2001:dc3::35#53
+12-Nov-2009 15:14:55.676 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:14:56.482 network unreachable resolving 'ns1.net.my/A/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:14:58.084 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:14:59.692 network unreachable resolving './NS/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:00.496 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:01.296 network unreachable resolving 'ns1.net.my/A/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:01.296 network unreachable resolving './NS/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:02.110 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:02.111 network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:02.111 network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:02.111 network unreachable resolving 'ns1.net.my/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:02.114 network unreachable resolving './NS/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:02.904 network unreachable resolving 'ns1.net.my/A/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:02.904 network unreachable resolving 'ns1.net.my/A/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:02.904 createfetch: B.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.904 createfetch: C.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.904 createfetch: D.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.904 createfetch: E.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.904 createfetch: G.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.904 createfetch: I.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.904 createfetch: L.ROOT-SERVERS.NET AAAA
+12-Nov-2009 15:15:02.905 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:03.708 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:03.708 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:04.512 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:04.512 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:04.512 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:06.119 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:06.120 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:06.923 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:08.480 client 127.0.0.1#32784: query: anak.amir.net.my IN A +
+12-Nov-2009 15:15:08.528 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:08.528 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:08.528 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:09.332 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:09.332 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:10.939 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:10.940 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:10.940 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:11.739 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'C.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'D.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:11.740 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:11.741 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:11.741 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:11.741 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:12.543 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 15:15:12.543 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:12.544 network unreachable resolving 'E.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:12.544 network unreachable resolving 'G.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:12.544 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:13.343 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:13.343 network unreachable resolving 'L.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:13.344 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:500:2f::f#53
+12-Nov-2009 15:15:13.344 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:dc3::35#53
+12-Nov-2009 15:15:13.344 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:13.344 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:503:c27::2:30#53
+12-Nov-2009 15:15:13.344 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:7fd::1#53
+12-Nov-2009 15:15:13.344 network unreachable resolving 'B.ROOT-SERVERS.NET/AAAA/IN': 2001:500:1::803f:235#53
+12-Nov-2009 15:15:13.345 network unreachable resolving 'I.ROOT-SERVERS.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 16:54:38.638 client 192.168.118.138#32784: query: anak.p3.net.my IN A +
+12-Nov-2009 16:54:38.638 createfetch: anak.p3.net.my A
+12-Nov-2009 16:54:38.639 network unreachable resolving 'anak.p3.net.my/A/IN': 2001:503:ba3e::2:30#53
+12-Nov-2009 16:54:38.639 network unreachable resolving 'anak.p3.net.my/A/IN': 2001:dc3::35#53
+12-Nov-2009 16:54:38.639 network unreachable resolving 'anak.p3.net.my/A/IN': 2001:7fd::1#53
+12-Nov-2009 16:54:38.639 network unreachable resolving 'anak.p3.net.my/A/IN': 2001:500:2f::f#53
+12-Nov-2009 16:54:38.639 network unreachable resolving 'anak.p3.net.my/A/IN': 2001:500:1::803f:235#53
+12-Nov-2009 16:54:38.640 network unreachable resolving 'anak.p3.net.my/A/IN': 2001:503:c27::2:30#53
+12-Nov-2009 16:54:40.330 createfetch: ns7.jaring.my A
+12-Nov-2009 16:54:40.331 createfetch: ns7.jaring.my AAAA
+12-Nov-2009 16:54:40.377 network unreachable resolving 'ns7.jaring.my/A/IN': 2001:328:200:48::400#53
+12-Nov-2009 16:58:33.913 zone anak.p3.net.my/IN: sending notifies (serial 2009111201)
+12-Nov-2009 16:58:33.913 createfetch: ns1.net.my A
+12-Nov-2009 16:58:33.913 createfetch: ns1.net.my AAAA
+12-Nov-2009 17:02:04.058 client 192.168.118.1#61640: query: ns1.anak.p3.net.my IN A +
+12-Nov-2009 17:04:15.962 client 192.168.118.1#57427: query: ns1.anak.p3.net.my IN A -ED
+12-Nov-2009 17:06:44.743 client 192.168.118.138#32784: query: anak.p3.net.my IN A +
+13-Nov-2009 00:51:54.960 client 127.0.0.1#32784: query: anak.p3.net.my IN A +
+13-Nov-2009 00:54:23.028 client 192.168.118.1#65428: query: anak.p3.net.my IN A -ED
+13-Nov-2009 00:57:56.312 client 192.168.118.137#24426: query: ns1.anak.p3.net.my IN AAAA -ED
+13-Nov-2009 00:57:56.313 client 192.168.118.137#52462: query: ns1.anak.p3.net.my IN A -ED
+13-Nov-2009 00:57:56.313 client 192.168.118.137#36649: query: anak.p3.net.my IN A -
+13-Nov-2009 00:58:40.321 client 192.168.118.137#56901: query: anak.p3.net.my IN SOA -EDC
+13-Nov-2009 00:58:40.322 client 192.168.118.137#12916: query: anak.p3.net.my IN DNSKEY -EDC
+13-Nov-2009 01:43:24.115 client 127.0.0.1#32784: query: anak.p100.net.my IN A +
+13-Nov-2009 01:43:29.918 client 127.0.0.1#32784: query: anak.p100.net.my IN A +ED
+13-Nov-2009 02:10:52.081 client 127.0.0.1#32784: query: anak2.px.net.my IN A +
+13-Nov-2009 03:09:52.231 no longer listening on ::#53
+13-Nov-2009 03:09:52.232 no longer listening on 127.0.0.1#53
+13-Nov-2009 03:09:52.232 no longer listening on 192.168.118.138#53
+13-Nov-2009 05:19:26.488 zone muhd.my/IN: sending notifies (serial 2009111201)
+13-Nov-2009 05:19:26.495 createfetch: ns1.net.my A
+13-Nov-2009 05:19:26.495 createfetch: ns1.net.my AAAA
+13-Nov-2009 05:19:26.495 zone child.p3.net.my/IN: sending notifies (serial 2009111201)
+13-Nov-2009 05:19:26.495 zone muhdx.my/IN: sending notifies (serial 2009111201)
+13-Nov-2009 05:19:26.496 createfetch: . NS
+13-Nov-2009 10:18:00.020 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:18:00.020 createfetch: ns1.net.my A
+13-Nov-2009 10:18:00.021 createfetch: . NS
+13-Nov-2009 10:20:06.774 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:21:06.833 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:22:06.838 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:23:06.784 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:24:06.854 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:26:06.993 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:27:06.869 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:28:06.828 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:29:06.861 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:30:06.916 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:31:06.893 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:32:06.864 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:33:06.855 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:34:06.946 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:35:06.872 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:36:06.880 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:37:06.934 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:38:06.960 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:39:06.900 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:40:06.895 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:41:06.946 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:42:06.974 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:43:06.965 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:44:06.924 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:45:06.988 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:46:06.939 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:47:06.977 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:48:07.016 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:49:07.004 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:50:06.980 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:51:06.993 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:52:07.009 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:53:07.026 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:54:07.005 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:55:06.998 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:56:07.082 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:57:07.017 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:58:07.021 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 10:59:07.071 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:00:07.134 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:01:07.036 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:02:07.036 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:03:07.090 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:04:07.149 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:05:07.056 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:06:07.046 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:07:07.081 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:08:07.141 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:09:07.076 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:10:07.153 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:11:07.200 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:12:07.134 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:13:07.089 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:14:07.172 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:15:07.175 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:16:07.145 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:17:07.149 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:18:07.188 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:19:07.140 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:20:07.153 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:21:07.319 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:22:07.209 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:23:07.206 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:24:07.188 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:25:07.253 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:26:07.228 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:27:07.199 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:28:07.204 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:29:07.285 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:30:07.232 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:31:07.244 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:32:07.287 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:33:07.291 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:34:07.242 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:35:55.403 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:36:34.868 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:37:34.964 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:38:34.826 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:39:34.818 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:40:34.895 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:41:34.915 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:42:34.883 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:43:34.958 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:44:34.908 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:45:34.904 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:46:34.906 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:47:34.886 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:48:34.969 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:49:34.918 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:50:34.941 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:51:34.961 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:52:34.907 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:53:34.961 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:54:35.020 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:55:34.977 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:56:34.932 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:57:35.019 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:58:35.012 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 11:59:34.950 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:00:35.013 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:01:35.029 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:02:35.016 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:03:35.024 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:04:35.009 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:05:34.997 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:06:35.153 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:07:35.176 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:08:35.012 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:09:35.070 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:10:35.070 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:11:35.086 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:12:35.104 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:13:35.130 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:14:35.038 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:15:35.088 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:16:35.092 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:17:35.061 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:18:35.079 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:19:35.112 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:20:35.069 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:21:35.089 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:22:35.244 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:23:35.152 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:24:35.100 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:25:35.154 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:26:35.141 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:27:35.134 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:28:35.199 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:29:35.149 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:30:35.124 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:31:35.218 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:32:35.194 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:33:35.157 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:34:35.272 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:35:35.161 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:36:35.194 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:37:35.242 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:38:35.181 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:39:35.241 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:40:35.269 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:41:35.194 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:42:35.177 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:43:35.244 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:44:35.264 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:45:35.287 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:46:35.369 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:47:35.228 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:48:35.227 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:49:35.325 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:50:35.263 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:51:35.236 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:52:35.337 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:53:35.338 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:54:35.260 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:55:35.323 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:56:35.283 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:57:35.310 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:58:35.336 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 12:59:35.299 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:00:35.284 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:01:35.378 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:02:35.342 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:03:35.305 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:04:35.389 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:05:41.007 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:06:35.406 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:07:35.456 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:08:35.401 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:09:35.416 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:10:35.404 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:11:35.452 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:12:35.407 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:13:35.463 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:14:35.483 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:15:35.396 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:16:35.406 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:26:27.686 client 192.168.118.137#33042: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:26:27.686 createfetch: ns1.net.my A
+13-Nov-2009 13:26:32.510 createfetch: ns6.jaring.my AAAA
+13-Nov-2009 13:26:32.510 createfetch: NS20.IIJ.AD.JP AAAA
+13-Nov-2009 13:26:35.368 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:26:35.369 createfetch: ns1.net.my A
+13-Nov-2009 13:26:42.146 createfetch: NS.UU.NET AAAA
+13-Nov-2009 13:26:42.146 createfetch: NS6.JARING.my AAAA
+13-Nov-2009 13:26:42.146 createfetch: DNS2.MYNIC.net.my AAAA
+13-Nov-2009 13:26:42.894 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:26:42.894 createfetch: ns1.net.my A
+13-Nov-2009 13:26:48.574 createfetch: B.ROOT-SERVERS.NET AAAA
+13-Nov-2009 13:26:48.574 createfetch: C.ROOT-SERVERS.NET AAAA
+13-Nov-2009 13:26:48.574 createfetch: D.ROOT-SERVERS.NET AAAA
+13-Nov-2009 13:26:48.574 createfetch: E.ROOT-SERVERS.NET AAAA
+13-Nov-2009 13:26:48.574 createfetch: G.ROOT-SERVERS.NET AAAA
+13-Nov-2009 13:26:48.575 createfetch: I.ROOT-SERVERS.NET AAAA
+13-Nov-2009 13:26:50.489 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:26:50.489 createfetch: ns1.net.my A
+13-Nov-2009 13:26:58.050 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:26:58.050 createfetch: ns1.net.my A
+13-Nov-2009 13:27:05.713 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:27:05.713 createfetch: ns1.net.my A
+13-Nov-2009 13:27:13.351 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:27:13.351 createfetch: ns1.net.my A
+13-Nov-2009 13:27:20.908 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:27:20.908 createfetch: ns1.net.my A
+13-Nov-2009 13:27:28.535 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:27:28.535 createfetch: ns1.net.my A
+13-Nov-2009 13:27:36.226 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:27:36.226 createfetch: ns1.net.my A
+13-Nov-2009 13:28:28.196 client 192.168.118.137#33043: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:28:28.196 createfetch: ns1.net.my A
+13-Nov-2009 13:34:28.696 client 192.168.118.137#33044: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:34:28.696 createfetch: ns1.net.my A
+13-Nov-2009 13:34:53.265 createfetch: ns6.jaring.my AAAA
+13-Nov-2009 13:34:53.265 createfetch: NS20.IIJ.AD.JP AAAA
+13-Nov-2009 13:35:20.849 createfetch: NS.UU.NET AAAA
+13-Nov-2009 13:35:20.849 createfetch: NS6.JARING.my AAAA
+13-Nov-2009 13:35:20.849 createfetch: DNS2.MYNIC.net.my AAAA
+13-Nov-2009 13:39:28.801 client 192.168.118.137#33045: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:39:28.801 createfetch: ns1.net.my A
+13-Nov-2009 13:39:36.483 client 192.168.118.137#33046: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:39:36.483 createfetch: ns1.net.my A
+13-Nov-2009 13:41:29.081 client 192.168.118.137#33046: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:41:29.081 createfetch: ns1.net.my A
+13-Nov-2009 13:42:29.408 client 192.168.118.137#33047: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:42:29.408 createfetch: ns1.net.my A
+13-Nov-2009 13:42:36.920 client 192.168.118.137#33048: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:42:36.920 createfetch: ns1.net.my A
+13-Nov-2009 13:42:44.485 client 192.168.118.137#33048: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:42:44.485 createfetch: ns1.net.my A
+13-Nov-2009 13:43:29.487 client 192.168.118.137#33048: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:43:29.487 createfetch: ns1.net.my A
+13-Nov-2009 13:45:23.740 client 192.168.118.137#33049: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:45:23.740 createfetch: ns1.net.my A
+13-Nov-2009 13:45:23.740 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:45:31.428 client 192.168.118.137#33049: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:45:31.428 createfetch: ns1.net.my A
+13-Nov-2009 13:45:38.980 client 192.168.118.137#33049: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:45:38.980 createfetch: ns1.net.my A
+13-Nov-2009 13:45:49.472 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:45:49.472 createfetch: ns6.jaring.my AAAA
+13-Nov-2009 13:45:49.472 createfetch: NS20.IIJ.AD.JP AAAA
+13-Nov-2009 13:45:49.473 network unreachable resolving 'NS20.IIJ.AD.JP/AAAA/IN': 2001:dc3::35#53
+13-Nov-2009 13:45:49.474 network unreachable resolving 'NS20.IIJ.AD.JP/AAAA/IN': 2001:503:c27::2:30#53
+13-Nov-2009 13:45:49.475 network unreachable resolving 'NS20.IIJ.AD.JP/AAAA/IN': 2001:500:1::803f:235#53
+13-Nov-2009 13:45:51.568 network unreachable resolving 'NS20.IIJ.AD.JP/AAAA/IN': 2001:500:3::42#53
+13-Nov-2009 13:45:51.568 network unreachable resolving 'NS20.IIJ.AD.JP/AAAA/IN': 2001:500:2f::f#53
+13-Nov-2009 13:45:57.704 network unreachable resolving 'ns6.jaring.my/AAAA/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:46:11.816 network unreachable resolving 'ns6.jaring.my/AAAA/IN': 2001:660:3006:1::1:1#53
+13-Nov-2009 13:46:11.816 network unreachable resolving 'ns6.jaring.my/AAAA/IN': 2001:328:1000:3::5#53
+13-Nov-2009 13:46:11.816 network unreachable resolving 'ns6.jaring.my/AAAA/IN': 2405:3000:3:60::21#53
+13-Nov-2009 13:46:18.020 network unreachable resolving 'NS20.IIJ.AD.JP/AAAA/IN': 2001:7fd::1#53
+13-Nov-2009 13:46:18.372 createfetch: NS.UU.NET AAAA
+13-Nov-2009 13:46:18.372 createfetch: NS6.JARING.my AAAA
+13-Nov-2009 13:46:18.372 createfetch: DNS2.MYNIC.net.my AAAA
+13-Nov-2009 13:46:18.373 network unreachable resolving 'DNS2.MYNIC.net.my/AAAA/IN': 2001:503:ba3e::2:30#53
+13-Nov-2009 13:46:20.608 network unreachable resolving 'NS.UU.NET/AAAA/IN': 2001:503:ba3e::2:30#53
+13-Nov-2009 13:46:20.636 network unreachable resolving 'NS6.JARING.my/AAAA/IN': 2001:503:ba3e::2:30#53
+13-Nov-2009 13:46:22.956 network unreachable resolving 'NS.UU.NET/AAAA/IN': 2001:503:c27::2:30#53
+13-Nov-2009 13:46:22.956 network unreachable resolving 'NS.UU.NET/AAAA/IN': 2001:500:1::803f:235#53
+13-Nov-2009 13:46:22.956 network unreachable resolving 'NS.UU.NET/AAAA/IN': 2001:dc3::35#53
+13-Nov-2009 13:46:22.992 network unreachable resolving 'NS6.JARING.my/AAAA/IN': 2001:dc3::35#53
+13-Nov-2009 13:46:23.040 network unreachable resolving 'DNS2.MYNIC.net.my/AAAA/IN': 2001:dc3::35#53
+13-Nov-2009 13:46:25.560 network unreachable resolving 'NS6.JARING.my/AAAA/IN': 2001:500:1::803f:235#53
+13-Nov-2009 13:46:25.560 network unreachable resolving 'NS6.JARING.my/AAAA/IN': 2001:503:c27::2:30#53
+13-Nov-2009 13:46:25.604 network unreachable resolving 'DNS2.MYNIC.net.my/AAAA/IN': 2001:500:1::803f:235#53
+13-Nov-2009 13:46:25.604 network unreachable resolving 'DNS2.MYNIC.net.my/AAAA/IN': 2001:503:c27::2:30#53
+13-Nov-2009 13:46:29.467 client 192.168.118.137#33049: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:46:29.467 createfetch: ns1.net.my A
+13-Nov-2009 13:46:36.152 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:46:37.070 client 192.168.118.137#33050: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:46:37.070 createfetch: ns1.net.my A
+13-Nov-2009 13:46:44.652 client 192.168.118.137#33050: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:46:44.652 createfetch: ns1.net.my A
+13-Nov-2009 13:46:45.416 network unreachable resolving 'NS.UU.NET/AAAA/IN': 2001:500:2f::f#53
+13-Nov-2009 13:46:45.528 network unreachable resolving 'NS6.JARING.my/AAAA/IN': 2001:500:2f::f#53
+13-Nov-2009 13:46:48.228 network unreachable resolving 'DNS2.MYNIC.net.my/AAAA/IN': 2001:500:2f::f#53
+13-Nov-2009 13:46:48.228 network unreachable resolving 'DNS2.MYNIC.net.my/AAAA/IN': 2001:500:3::42#53
+13-Nov-2009 13:46:48.252 network unreachable resolving 'NS.UU.NET/AAAA/IN': 2001:500:3::42#53
+13-Nov-2009 13:46:48.280 network unreachable resolving 'NS6.JARING.my/AAAA/IN': 2001:500:3::42#53
+13-Nov-2009 13:46:51.148 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:46:52.364 client 192.168.118.137#33050: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:46:52.365 createfetch: ns1.net.my A
+13-Nov-2009 13:47:29.573 client 192.168.118.137#33050: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:47:29.573 createfetch: ns1.net.my A
+13-Nov-2009 13:47:36.668 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:47:37.168 client 192.168.118.137#33051: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:47:37.168 createfetch: ns1.net.my A
+13-Nov-2009 13:47:52.464 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:48:32.121 client 192.168.118.137#33051: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:48:32.121 createfetch: ns1.net.my A
+13-Nov-2009 13:49:29.804 client 192.168.118.137#33051: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:49:29.804 createfetch: ns1.net.my A
+13-Nov-2009 13:49:29.804 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:49:29.804 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:49:37.349 client 192.168.118.137#33052: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:49:37.349 createfetch: ns1.net.my A
+13-Nov-2009 13:50:29.847 client 192.168.118.137#33052: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:50:29.847 createfetch: ns1.net.my A
+13-Nov-2009 13:50:37.367 client 192.168.118.137#33053: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:50:37.367 createfetch: ns1.net.my A
+13-Nov-2009 13:50:37.964 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:50:56.216 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:51:32.109 client 192.168.118.137#33053: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:51:32.109 createfetch: ns1.net.my A
+13-Nov-2009 13:51:40.628 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:51:59.860 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:52:32.182 client 192.168.118.137#33053: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:52:32.182 createfetch: ns1.net.my A
+13-Nov-2009 13:53:32.126 client 192.168.118.137#33053: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:53:32.126 createfetch: ns1.net.my A
+13-Nov-2009 13:53:32.126 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:54:29.885 client 192.168.118.137#33053: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:54:29.885 createfetch: ns1.net.my A
+13-Nov-2009 13:54:37.505 client 192.168.118.137#33054: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:54:37.505 createfetch: ns1.net.my A
+13-Nov-2009 13:54:39.003 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:54:59.011 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:55:32.155 client 192.168.118.137#33054: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:55:32.155 createfetch: ns1.net.my A
+13-Nov-2009 13:55:41.839 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:56:01.844 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:56:32.202 client 192.168.118.137#33054: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:56:32.202 createfetch: ns1.net.my A
+13-Nov-2009 13:57:32.139 client 192.168.118.137#33054: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:57:32.139 createfetch: ns1.net.my A
+13-Nov-2009 13:57:42.143 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 13:58:29.929 client 192.168.118.137#33055: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:58:29.929 createfetch: ns1.net.my A
+13-Nov-2009 13:58:29.929 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 13:58:37.487 client 192.168.118.137#33056: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:58:37.487 createfetch: ns1.net.my A
+13-Nov-2009 13:59:30.010 client 192.168.118.137#33056: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:59:30.010 createfetch: ns1.net.my A
+13-Nov-2009 13:59:37.580 client 192.168.118.137#33057: query: ns1.net.my IN A +EDC
+13-Nov-2009 13:59:37.580 createfetch: ns1.net.my A
+13-Nov-2009 13:59:40.011 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 14:00:32.178 client 192.168.118.137#33057: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:00:32.178 createfetch: ns1.net.my A
+13-Nov-2009 14:00:32.178 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 14:01:30.031 client 192.168.118.137#33057: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:01:30.031 createfetch: ns1.net.my A
+13-Nov-2009 14:01:30.031 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:200:48::400#53
+13-Nov-2009 14:01:30.031 network unreachable resolving 'ns1.net.my/A/IN': 2001:328:1000:3::2#53
+13-Nov-2009 14:01:37.723 client 192.168.118.137#33058: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:01:37.724 createfetch: ns1.net.my A
+13-Nov-2009 14:01:45.339 client 192.168.118.137#33059: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:01:45.339 createfetch: ns1.net.my A
+13-Nov-2009 14:01:52.956 client 192.168.118.137#33059: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:01:52.956 createfetch: ns1.net.my A
+13-Nov-2009 14:02:29.979 client 192.168.118.137#33065: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:02:29.979 createfetch: ns1.net.my A
+13-Nov-2009 14:08:23.493 client 192.168.118.137#7020: query: anak.p3.net.my IN SOA -EDC
+13-Nov-2009 14:08:23.494 client 192.168.118.137#9123: query: anak.p3.net.my IN DNSKEY -EDC
+13-Nov-2009 14:16:41.371 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:16:41.371 createfetch: ns1.net.my A
+13-Nov-2009 14:16:41.371 createfetch: . NS
+13-Nov-2009 14:17:48.638 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:18:48.696 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:19:48.740 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:20:48.677 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:21:48.729 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:22:48.847 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:23:48.806 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:24:48.756 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:25:48.734 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:26:48.941 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:27:48.946 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:28:48.808 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:29:48.813 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:30:48.847 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:31:48.865 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:32:48.895 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:33:48.821 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:34:48.897 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:35:48.874 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:36:48.859 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:37:48.829 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:38:48.874 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:39:48.906 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:40:48.889 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:41:48.857 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:42:48.954 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:43:48.930 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:44:48.870 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:45:48.866 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:46:48.931 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:47:48.923 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:48:48.915 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:49:48.984 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:50:48.959 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:51:48.946 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:52:48.957 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:53:48.959 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:54:49.009 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:55:48.979 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:56:48.935 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:57:48.999 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:58:49.004 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 14:59:49.059 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 15:00:48.953 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 15:01:48.989 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 15:02:49.129 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 15:03:49.117 client 192.168.118.137#33103: query: ns1.net.my IN A +EDC
+13-Nov-2009 21:47:50.585 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:22.061 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:22.977 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:23.840 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:24.625 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:25.529 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:26.321 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:27.093 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:27.816 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:28.881 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:29.657 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:30.407 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:31.081 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:31.689 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:32.335 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:32.897 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:33.514 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:34.097 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:34.737 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:35.345 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:35.944 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:36.945 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+13-Nov-2009 21:48:37.722 client 192.168.1.244#33103: query: yahoox.com IN A +ED
+17-Nov-2009 18:05:08.601 client 192.168.1.30#45913: query: child.p30.net.my IN A -ED
+17-Nov-2009 18:05:35.251 client 192.168.1.244#23826: query: child.p30.net.my IN SOA -EDC
+17-Nov-2009 18:05:35.252 client 192.168.1.244#46210: query: child.p30.net.my IN DNSKEY -EDC
+17-Nov-2009 18:14:49.914 client 192.168.1.244#59554: query: child2.p30.net.my IN SOA -EDC
+17-Nov-2009 18:14:49.915 client 192.168.1.244#19777: query: child2.p30.net.my IN DNSKEY -EDC
+17-Nov-2009 18:19:40.098 client 192.168.1.244#34048: query: child2.p30.net.my IN SOA -EDC
+17-Nov-2009 18:19:40.099 client 192.168.1.244#60829: query: child2.p30.net.my IN DNSKEY -EDC
+17-Nov-2009 18:20:17.438 client 192.168.1.244#60620: query: child2.p30.net.my IN SOA -EDC
+17-Nov-2009 18:20:17.439 client 192.168.1.244#49783: query: child2.p30.net.my IN DNSKEY -EDC
+17-Nov-2009 23:21:24.260 no longer listening on ::#53
+17-Nov-2009 23:21:24.261 no longer listening on 127.0.0.1#53
+17-Nov-2009 23:21:24.261 no longer listening on 192.168.118.138#53
+17-Nov-2009 23:21:24.261 no longer listening on 192.168.1.245#53
+18-Nov-2009 16:33:46.232 client 192.168.1.9#2824: query: sub.p9.net.my IN ANY -ED
+18-Nov-2009 16:43:02.069 client 192.168.1.26#21151: query: azmi.p26.net.my IN A -ED
+18-Nov-2009 16:43:09.679 client 192.168.1.5#23362: query: anaktiri.p5.net.my IN A -ED
+18-Nov-2009 16:43:12.027 client 192.168.1.6#56009: query: son.p6.net.my IN A -ED
+18-Nov-2009 16:44:03.844 client 192.168.1.15#23075: query: sub.p15.net.my IN A -ED
+18-Nov-2009 16:44:19.144 client 192.168.1.15#6146: query: sub.p15.net.my IN ANY -ED
+18-Nov-2009 16:44:49.121 client 192.168.1.25#7993: query: sub.p25.net.my IN A -ED
+18-Nov-2009 16:44:58.150 client 192.168.1.27#1221: query: sub.p27.net.my IN A -ED
+18-Nov-2009 16:45:11.469 client 192.168.1.1#56494: query: fazli.p1.net.my IN A -ED
+18-Nov-2009 16:45:13.213 client 192.168.1.15#29792: query: ns1.sub.p15.net.my IN AAAA -ED
+18-Nov-2009 16:45:18.277 client 192.168.1.25#56763: query: sub.p25.net.my IN ANY -ED
+18-Nov-2009 16:45:20.008 client 192.168.1.32#15516: query: anak.p32.net.my IN A -ED
+18-Nov-2009 16:45:22.607 client 192.168.1.3#25820: query: sub.p3.net.my IN ANY -ED
+18-Nov-2009 16:45:23.357 client 192.168.1.31#32347: query: sub.p31.net.my IN ANY -ED
+18-Nov-2009 16:45:30.380 client 192.168.1.36#20133: query: sub.p36.net.my IN A -ED
+18-Nov-2009 16:45:38.736 client 192.168.1.1#34598: query: infiniti.p2.net.my IN A -ED
+18-Nov-2009 16:45:38.811 client 192.168.1.28#41725: query: sub.p28.net.my IN A -ED
+18-Nov-2009 16:45:39.035 client 192.168.1.39#18061: query: sub.p39.net.my IN A -ED
+18-Nov-2009 16:45:40.879 client 192.168.1.32#26701: query: anak.p32.net.my IN ANY -ED
+18-Nov-2009 16:45:45.413 client 192.168.1.31#8796: query: sub.p31.net.my IN A -ED
+18-Nov-2009 16:45:52.495 client 192.168.1.21#25285: query: sub.p21.net.my IN A -ED
+18-Nov-2009 16:46:03.881 client 192.168.1.22#50731: query: itsme.p22.net.my IN A -ED
+18-Nov-2009 16:46:09.370 client 192.168.1.35#54600: query: sub.p35.net.my IN ANY -ED
+18-Nov-2009 16:46:11.746 client 192.168.1.22#33398: query: itsme.p22.net.my IN ANY -ED
+18-Nov-2009 16:46:12.345 client 192.168.1.29#1406: query: sub.p29.net.my IN A -ED
+18-Nov-2009 16:46:13.088 client 192.168.1.24#32916: query: sub.p24.net.my IN A -ED
+18-Nov-2009 16:46:16.528 client 192.168.1.19#65497: query: ns1.sub.p19.net.my IN A -ED
+18-Nov-2009 16:46:17.648 client 192.168.1.36#46153: query: sub.p36.net.my IN ANY -ED
+18-Nov-2009 16:46:33.203 client 192.168.1.28#32413: query: sub.p28.net.my IN ANY -ED
+18-Nov-2009 16:47:21.586 client 192.168.1.21#6125: query: sub.p21.net.my IN ANY -ED
+18-Nov-2009 16:48:03.687 client 192.168.1.27#24602: query: sub.p27.net.my IN ANY -ED
+18-Nov-2009 16:48:18.021 client 192.168.1.29#20455: query: sub.p29.net.my IN ANY -ED
+18-Nov-2009 16:48:22.051 client 192.168.1.7#18409: query: pwtc.p7.net.my IN A -ED
+18-Nov-2009 16:49:33.311 client 192.168.1.244#30915: query: anto.p37.net.my IN SOA -EDC
+18-Nov-2009 16:49:33.314 client 192.168.1.244#52921: query: anto.p37.net.my IN DNSKEY -EDC
+18-Nov-2009 16:49:55.524 client 192.168.118.137#36304: query: sub.p21.net.my IN SOA -EDC
+18-Nov-2009 16:49:55.525 client 192.168.118.137#46851: query: sub.p21.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:04.588 client 192.168.1.244#56454: query: sub.p24.net.my IN SOA -EDC
+18-Nov-2009 16:50:04.600 client 192.168.1.244#51341: query: sub.p24.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:05.484 client 192.168.1.244#51294: query: azmi.p26.net.my IN SOA -EDC
+18-Nov-2009 16:50:05.486 client 192.168.118.137#33708: query: azmi.p26.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:11.208 client 192.168.118.137#25804: query: sub.p28.net.my IN SOA -EDC
+18-Nov-2009 16:50:11.213 client 192.168.118.137#44818: query: sub.p28.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:18.089 client 192.168.1.244#9553: query: son.p6.net.my IN SOA -EDC
+18-Nov-2009 16:50:18.090 client 192.168.1.244#15603: query: son.p6.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:19.611 client 192.168.1.244#2132: query: sub.p8.net.my IN SOA -EDC
+18-Nov-2009 16:50:19.612 client 192.168.1.244#57094: query: sub.p8.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:22.036 client 192.168.118.137#16211: query: sub.p15.net.my IN SOA -EDC
+18-Nov-2009 16:50:22.037 client 192.168.118.137#10832: query: sub.p15.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:23.432 client 192.168.1.244#32178: query: sub.p23.net.my IN SOA -EDC
+18-Nov-2009 16:50:23.433 client 192.168.1.244#64579: query: sub.p23.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:24.631 client 192.168.1.244#10382: query: fazli.p1.net.my IN SOA -EDC
+18-Nov-2009 16:50:24.632 client 192.168.1.244#12862: query: fazli.p1.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:26.447 client 192.168.118.137#44747: query: sub.p19.net.my IN SOA -EDC
+18-Nov-2009 16:50:26.448 client 192.168.118.137#57622: query: sub.p19.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:28.509 client 192.168.118.137#34016: query: sub.p27.net.my IN SOA -EDC
+18-Nov-2009 16:50:28.510 client 192.168.118.137#39132: query: sub.p27.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:42.800 client 192.168.118.137#35309: query: sub.p36.net.my IN SOA -EDC
+18-Nov-2009 16:50:42.801 client 192.168.118.137#30740: query: sub.p36.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:43.121 client 192.168.1.244#6716: query: adam.p44.net.my IN SOA -EDC
+18-Nov-2009 16:50:43.122 client 192.168.1.244#50812: query: adam.p44.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:49.238 client 192.168.118.137#60428: query: anak.p32.net.my IN SOA -EDC
+18-Nov-2009 16:50:49.239 client 192.168.118.137#45715: query: anak.p32.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:49.896 client 192.168.118.137#2162: query: itsme.p22.net.my IN SOA -EDC
+18-Nov-2009 16:50:49.898 client 192.168.118.137#13750: query: itsme.p22.net.my IN DNSKEY -EDC
+18-Nov-2009 16:50:54.379 client 192.168.1.244#28801: query: anaktiri.p5.net.my IN SOA -EDC
+18-Nov-2009 16:50:54.380 client 192.168.1.244#52443: query: anaktiri.p5.net.my IN DNSKEY -EDC
+18-Nov-2009 16:51:11.988 client 192.168.1.244#56078: query: sub.p48.net.my IN SOA -EDC
+18-Nov-2009 16:51:11.990 client 192.168.1.244#30874: query: sub.p48.net.my IN DNSKEY -EDC
+18-Nov-2009 16:51:18.299 client 192.168.118.137#2723: query: sub.p31.net.my IN SOA -EDC
+18-Nov-2009 16:51:18.301 client 192.168.118.137#64622: query: sub.p31.net.my IN DNSKEY -EDC
+18-Nov-2009 16:51:20.040 client 192.168.118.137#62415: query: sub.p9.net.my IN SOA -EDC
+18-Nov-2009 16:51:20.041 client 192.168.118.137#53336: query: sub.p9.net.my IN DNSKEY -EDC
+18-Nov-2009 16:51:39.141 client 192.168.1.244#18268: query: sub.p39.net.my IN SOA -EDC
+18-Nov-2009 16:51:39.142 client 192.168.1.244#18627: query: sub.p39.net.my IN DNSKEY -EDC
+18-Nov-2009 16:51:45.522 client 192.168.1.244#17554: query: infiniti.p2.net.my IN SOA -EDC
+18-Nov-2009 16:51:45.523 client 192.168.1.244#49056: query: infiniti.p2.net.my IN DNSKEY -EDC
+18-Nov-2009 16:51:47.758 client 192.168.118.137#36591: query: sub.p25.net.my IN SOA -EDC
+18-Nov-2009 16:51:47.759 client 192.168.118.137#8524: query: sub.p25.net.my IN DNSKEY -EDC
+18-Nov-2009 16:52:00.196 client 192.168.1.3#52980: query: sub.p3.net.my IN ANY -ED
+18-Nov-2009 16:52:03.246 client 192.168.1.244#15067: query: pwtc.p7.net.my IN SOA -EDC
+18-Nov-2009 16:52:03.247 client 192.168.1.244#49562: query: pwtc.p7.net.my IN DNSKEY -EDC
+18-Nov-2009 16:52:26.201 client 192.168.1.244#11033: query: ns1.sub.p17.net.my IN SOA -EDC
+18-Nov-2009 16:52:26.203 client 192.168.1.244#52430: query: sub.p17.net.my IN DNSKEY -EDC
+18-Nov-2009 16:53:29.137 client 192.168.118.137#47406: query: sub.p29.net.my IN SOA -EDC
+18-Nov-2009 16:53:29.138 client 192.168.118.137#20000: query: sub.p29.net.my IN DNSKEY -EDC
+18-Nov-2009 16:56:16.870 client 192.168.1.3#55330: query: sub.p3.net.my IN ANY -ED
+18-Nov-2009 16:56:51.749 client 192.168.1.24#44175: query: ns1.sub.p24.net.my IN A -ED
+18-Nov-2009 16:57:01.209 client 192.168.1.24#38233: query: ns.sub.p24.net.my IN A -ED
+18-Nov-2009 16:59:31.085 client 192.168.1.244#51710: query: sub.p48.net.my IN SOA -EDC
+18-Nov-2009 16:59:31.086 client 192.168.1.244#4919: query: sub.p48.net.my IN DNSKEY -EDC
+18-Nov-2009 16:59:40.353 client 192.168.1.10#41043: query: sub.p10.net.my IN A +
+18-Nov-2009 17:00:23.853 client 192.168.118.137#27593: query: sub.p25.net.my IN SOA -EDC
+18-Nov-2009 17:00:23.854 client 192.168.118.137#48495: query: sub.p25.net.my IN DNSKEY -EDC
+18-Nov-2009 17:00:34.071 client 192.168.1.3#17977: query: sub.p3.net.my IN A -ED
+18-Nov-2009 17:00:34.115 client 192.168.1.244#22143: query: azmi.p26.net.my IN SOA -EDC
+18-Nov-2009 17:00:34.116 client 192.168.118.137#62004: query: azmi.p26.net.my IN DNSKEY -EDC
+18-Nov-2009 17:02:36.997 client 192.168.1.244#46832: query: azmi.p26.net.my IN SOA -EDC
+18-Nov-2009 17:02:36.998 client 192.168.118.137#51719: query: azmi.p26.net.my IN DNSKEY -EDC
+18-Nov-2009 17:03:05.649 client 192.168.1.10#41012: query: sub.p10.net.my IN A +
+18-Nov-2009 17:03:07.105 client 192.168.1.244#56377: query: azmi.p26.net.my IN SOA -EDC
+18-Nov-2009 17:03:07.106 client 192.168.118.137#48697: query: azmi.p26.net.my IN DNSKEY -EDC
+18-Nov-2009 17:11:30.671 client 192.168.1.5#55268: query: anaktiri.p5.net.my IN ANY -ED
+18-Nov-2009 17:14:28.112 client 192.168.118.137#40154: query: sub.p15.net.my IN SOA -EDC
+18-Nov-2009 17:14:28.114 client 192.168.118.137#43826: query: sub.p15.net.my IN DNSKEY -EDC
+18-Nov-2009 17:18:22.342 client 192.168.1.12#36267: query: sub.p12.net.my IN A -ED
+18-Nov-2009 17:18:53.988 client 192.168.1.244#24527: query: sub.p12.net.my IN SOA -EDC
+18-Nov-2009 17:18:53.989 client 192.168.1.244#24651: query: sub.p12.net.my IN DNSKEY -EDC
+18-Nov-2009 18:03:39.735 client 192.168.1.32#38513: query: anak.p32.net.my IN AAAA -ED
+18-Nov-2009 18:03:39.742 client 192.168.1.32#15960: query: anak.p32.net.my IN A -ED
+18-Nov-2009 18:06:44.574 client 192.168.1.32#1314: query: anak.p32.net.my IN ANY -ED
+18-Nov-2009 18:06:48.105 client 192.168.1.32#38058: query: anak.p32.net.my IN A -ED
+18-Nov-2009 20:58:30.177 no longer listening on ::#53
+18-Nov-2009 20:58:30.177 no longer listening on 127.0.0.1#53
+18-Nov-2009 20:58:30.177 no longer listening on 192.168.118.138#53
+18-Nov-2009 20:58:30.177 no longer listening on 192.168.1.245#53

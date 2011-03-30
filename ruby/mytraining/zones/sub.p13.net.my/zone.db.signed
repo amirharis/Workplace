@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:56 2009
+; dnssec_signzone version 9.6.1
+sub.p13.net.my.		3600	IN SOA	ns1.sub.p13.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					cQL4o1SIGi0tm0hGu1KvZXefYxFXzSH7iBGh
+					K4/9cjGfepgcHqZ6AtPQ5rLefXbYNgOXlEMJ
+					fYigmqKv9BdPuA== )
+			3600	NS	ns1.sub.p13.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					hJVzgKus0Q6SneuF8PHbCrst6lBmK7w96Rv8
+					V3DWeZgSnh/SOjN6NEmk8yjjdgBlhVhfauLl
+					+K+5gTg5yax6fA== )
+			3600	NSEC	ns1.sub.p13.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					DvKdK1pCnY6X2Jf88nHlLc2uWgetxbGKp9eh
+					MRVryCrjXAERKRrDgGiv/QR7QvlaKiwK5g2a
+					cw1YpbGYw4v6fQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABqFUy9gjpHZ+aKI1lJEInABpw89C4
+					MdcUs9zU+F0R952QLiBVvhDB5WjAFFQ7FHtC
+					400xUvKUzfGxpNqaqdkKkQ==
+					) ; key id = 29294
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCzoWKUkIVK15q46sSeonqX8cUVsR
+					nBGIXbuOXAxps8cAg9LohoWrmwd/FDYZ7M9l
+					HGUkJG+p2MKtvaXaDNFeI+aWRncKGyP0e/uv
+					Ma6w1JtqoWthH0ALWEEKrczDkVCQxnooCBWs
+					gRXcgQm5o/iulAfNcBc2MylrZCiwIerT923P
+					4VnvFsxPKoYAZqYOgxSjkUEre5Z86wWVwGaN
+					B/M2YoY0hQ==
+					) ; key id = 61689
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					NS2eMCVijIsdb3Y7zQPZqWHIdc4FnBHPJAby
+					0wxYHqRvpJuM8lKupeVH2MzkrWKXhqY6Lusm
+					z9lbeXzyB0IwAg== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071956 (
+					20091118071956 61689 sub.p13.net.my.
+					B4E7C0o6dIqKKYA4nYVDlzXv0hdBc4EMuRjM
+					7drZvAsgoCNJMAhY/n44Ha9bnc0K7Vanba1i
+					+F+15XKjteNzra9ElJ8AkRG+nY4itwo9RHJj
+					q3EumuABJHm9pDYR7ATr+LaXtebWGfMmCT3A
+					+dLAQgc0/0m70NGW0Dp/T3VGsUL20zUmSLYe
+					kamxJc3e3s9+2IYcw12ua9ycnWEQeTu7/CYF
+					eA== )
+ns1.sub.p13.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					CdSJGiQEKMQZcK7oeEiYUgtRPsj4FRhK6yvH
+					GVHK43ZIn3bSwMPXg8/XUeewPKHdFuVu4U6x
+					P8dYfTBKqy2xIA== )
+			3600	NSEC	test.sub.p13.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					CLlIcmanem7dN67R9DfTwrwb3+Yg/qo8kPuF
+					rhFxnZEc1IB9ObHsbURREzF9kHPlBVGas4lN
+					OuM+6/0e9m8/6Q== )
+test.sub.p13.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					hWxAFGnSC8qaohFDrFky/nXfJmWDZLqPOpUQ
+					svchoTmJ3U651aTjDfPsbvg/ohoPiyXMsfal
+					2Ov+YZGA2XMhQA== )
+			3600	NSEC	sub.p13.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071956 (
+					20091118071956 29294 sub.p13.net.my.
+					nXVfj35YpWwwzADf8P7Wn4tG/4fAP+oZld7D
+					IlVw0srsSYtuEwcSl75v+puHRokSHVGkIQcV
+					D0qx1mK3vKNq4w== )

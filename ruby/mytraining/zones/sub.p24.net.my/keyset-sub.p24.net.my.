@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p24.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABCuIrP0ptHhkpA2r/I2yFZ8rNjkCl
+					0zI3WnTeMVZyvUWuj4ze5pqHCW1Isfv8ODIh
+					T5at5CAQbwb4xQP6H6FdX175ZS93E1FRe0kK
+					gtBDvSrTRglO3hvirYuIOB3urkSTHXJj9/zl
+					j+bsS1g2zaEuS9XqQ6z7T7tNMB8JxG6igzQa
+					6o5z/DqJjuxVLHW16DV9Drog26Jgconw8GwL
+					80oBEMr7qw==
+					) ; key id = 7374

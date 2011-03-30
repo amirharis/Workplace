@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p43.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABC7kgcYnkRxUYGIpbRsb0o02Towr9
+					BhFM21h7KkMCdcTW1R56i9+O1K3eiA/Paluh
+					4fvbi5IHBXLdHt+2skj3WjYiYbLB5na6ggsy
+					jClMWyz8wOUEQJmVcSj4WT5kQYDMVBu/ZIL/
+					dQ+UMf1l9IThbpzjpKCsyEtNysH55gHljgn0
+					U/Q9AHkOJii6nFN2/u/LwFCCyKlHi5ihv1lu
+					lOakzAx6jw==
+					) ; key id = 46083

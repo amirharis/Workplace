@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:25 2009
+; dnssec_signzone version 9.6.1
+sub.p27.net.my.		3600	IN SOA	ns1.sub.p27.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					qGyzACAaOkd4QnBCBPmhvE5VOu32/UT/xX3A
+					sJYJu0SRN8eTP4C5SeA7BttXZwnyt9JdMTc1
+					DxQvfgL/M/2EyA== )
+			3600	NS	ns1.sub.p27.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					fsTtMtxRyYfLePEx8ROFfPMUQN4qj2htZ3bn
+					6cMLvyBLiDNr4SaNst9szSaJr5kUxrHv/t32
+					cvkpynayGge1Tw== )
+			3600	NSEC	ns1.sub.p27.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					Y7MOyvW+1ICD4tQ3ipTJLqto+DENHEGapr1n
+					UeEgdfSqzWcL+TA3RF109iKBrLwTNSvWeMwR
+					JctM7yv7Pkdcrg== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB1STDDzLL5TphrYHZ2k/8lvgmAGLm
+					96h32hJsePcR/wvTlEoOQQmUyLMCKv+1Hr0l
+					okC/oAKa0o+UQ557XkR2EQ==
+					) ; key id = 47660
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCn7RFWqkZGeLX8dveBjwvBPC2Ndi
+					Bvu/nUBKXhyCONHhUujKyWVs+BMheFSLP9QL
+					wapTC/slA09ahYfyozJDjQ/92+jRO4f/2BKm
+					gmfIrpHNtrO618bhTpsGYVm3j0ToapeL9QrH
+					0YdRKF5Pi6jVasJdNe2UmP0h15ixBr24EsqF
+					eP+jXvmrlLv1XT/quk/0S8NqQ3XxrRwPFfuz
+					qm5eUTFeeQ==
+					) ; key id = 3273
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071925 (
+					20091118071925 3273 sub.p27.net.my.
+					BAXfxzWhgqyiBLgEQcewR0tIHYGaQe1J7iLh
+					z1WIHV0JMpW44IIR6sagWTLM8x0viQ/0+ERD
+					PCTxk0RV8qzAWGhts/3SfiIoPWzh8qskQ23D
+					H/F31hAKUqtIDijO4xxU8TrD2E3pp6pmfMed
+					4cTL7J3uVLyksIJKEt9ARuWulyEpOMukMGb5
+					qH0pe/AYbS4d3eSqYE7ByUWZliCuWzQdCuwu
+					+Q== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					0CCtVkNML2c5kZsS5hmyMZPU3M4wPZ8fUdJI
+					FjH8KzX0kciYpM3RHXVgcK3meOV3WnE7bmLa
+					acMFzRs9/qzudw== )
+ns1.sub.p27.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					03cfWtdi/j+E13eFbkZBlLBxgDa7Gm3W4kqh
+					OK5PLRBMnrKN91br5fVqkpUr2OBuVCSKKkQZ
+					egPqlzIwzvwCew== )
+			3600	NSEC	test.sub.p27.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					KIywLxWnDCkO0lG65cAbE3hUfGf13EdDBfAG
+					5aMdqaxH1l7c8jlHOVSqVJfmQ5lne8Z+6RVk
+					9hGZ8bAWGRzsug== )
+test.sub.p27.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					ZUZbeVkPhyd79q7nMG95JBy76kuLkRx1V7Cs
+					J79sDO4gBk6QaBCgkeSq8A7VQ78wYmqxeiMr
+					wiYhfw5yQE37Kg== )
+			3600	NSEC	sub.p27.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071925 (
+					20091118071925 47660 sub.p27.net.my.
+					kbhku9DEJKTOIT9197xKIS2hUapxQJIUrYC3
+					6pOZdNFbyAon35nTbTZVZvFXlPuFpmkpBzV3
+					Kr5Ku/qsG56GtQ== )

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:51 2009
+; dnssec_signzone version 9.6.1
+sub.p36.net.my.		3600	IN SOA	ns1.sub.p36.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					y0396JGHiCSz0IOYI2KexOtrqsQwIKVsCrrX
+					qTx+LdtzGjkxwSCm+srXG/kAz6PJyV9lQZEh
+					UMyI9anjZ1zHkw== )
+			3600	NS	ns1.sub.p36.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					WzMPB96BW3sNOgZm+Q4dVQZnYphPMftjclWy
+					9KcyVDATGS4Wi4Zlv3EeOE9Rpkmg2Gi9wgon
+					8OyocHxLbk5UzQ== )
+			3600	NSEC	ns1.sub.p36.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					LdYmzyWZ72VZA5XYuXglwCW6sribefbn8jup
+					lFBBt4E2iqgviHh+qme4GE0pTKyF4YvOT1zq
+					+O8ccA7ee3fcYQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB0RW6ta2a5Bkb5fHitipBTkKg8QXn
+					WcZHN2WFF3uKUZuVZ7qdSXzbdyMIp87NHmrL
+					F8vGxRPzbWIOBmHAJJy1OQ==
+					) ; key id = 47087
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDCU7tgEsxrkjT20u/FIaeAGktrp2
+					SBF1C6B/0aG3+F/VY3Ba2CwQoLtLpdgMUGjb
+					UJHKtJKO/1LS07imoelHYigRANESQekCnNJB
+					/ypq1THLt+WCjwl7e6W0fxE4+F2Yo8Y+1jmH
+					mgn1sTs3sTBK1j7oUnM+/yxkYg2nnHc/bZms
+					jW+/gN9Ux7EGvW4H6S1K07NHTM6UkUuaHvy1
+					u1tP0X3WBw==
+					) ; key id = 52191
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					iGQHeipI60YhZ5wIsfv60dyw5LHFp5K9YP50
+					t3IOqxqVSM4u4YY0w+2y2mDvLAQn9Vte2g2Z
+					2oKSDeQz3An+jQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071851 (
+					20091118071851 52191 sub.p36.net.my.
+					CBvKfBvdvwjw3AeFDDlBPr3qPrtF5vetOnsX
+					oOH15SoU9uaQkDP83ra1ETpepyanjh4cZrUL
+					rNEUc3tlaiUOUcLFTwH58Oc001+S01LQwFkT
+					M8awyDe6aDCWiwOP6lsuLUQWmO46gezszuCF
+					XvJnAHO72UlyohAriO/St2Is8PTkzLTr1HwL
+					nxSKgAedBCWF2PBAWoG1AC5QM9cycdt1zM/0
+					LQ== )
+ns1.sub.p36.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					BR10TnTNeC2KeGp9HH7tPful8CfNJB4LcT8X
+					a0fW07HdkmntYMm+L3Dnifdx7CZPx568amXP
+					jgqTNF2xfQfkVg== )
+			3600	NSEC	test.sub.p36.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					FcLEcVEMkHQmEC43nKjX0/m8gGeoYNbibaHh
+					KFqOwfHTaqPe23UvV64byrZPa7RqUXnyBXUa
+					F1nUzPXbARedNQ== )
+test.sub.p36.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					i/68/mcoS33l+PAisE9gofbqmB9wkqiq3ZBp
+					PG8sb3/Kkn9J+dujoLKVwYHGW1Ot907ZKJbH
+					0D8d6rOANKrCUA== )
+			3600	NSEC	sub.p36.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071851 (
+					20091118071851 47087 sub.p36.net.my.
+					T3q0DDCZ7zC/WwuW+v/YjULmnnSXDkY/eWYa
+					pYsUm2gYsASKVtQyYY292iTJsSHbIpoltH0y
+					CvEGAc2rJ8AAkA== )

@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p35.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABD3uLrtxQ9Mr4vUDdQt+4MNrlqJRA
+					W88Mdu37wWwm/31YApbniCUbiDfJAGNvuhFp
+					p1GvkS25eiteg6v4/skBafUbKRU7NJYUjMWX
+					/R+0iw7QrLPr3HeOxs1REJOkn3aeV/MtJbTf
+					eHDaqLQoUcRXsH36fDh432fhvCaumPvjsy9m
+					cB588iL+TsBLJufPXUC2MNpMLtcEK4jIc/Ae
+					Gx6aXeZWVw==
+					) ; key id = 36765

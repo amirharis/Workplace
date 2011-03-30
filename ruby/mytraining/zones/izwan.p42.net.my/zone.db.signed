@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:45 2009
+; dnssec_signzone version 9.6.1
+izwan.p42.net.my.	3600	IN SOA	ns1.izwan.p42.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					rJPs87SpBlqcaVLd5wdfhZXcZDnC1LQEpyAf
+					hPXMrcvNlRU682DvSnMprmv6hohtXtPlPyRd
+					WmiuvNyWpE4wFQ== )
+			3600	NS	ns1.izwan.p42.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					ogePp6cvlESoZxdPbCpBlJ+pdTIMEcy3F4B9
+					MBa1kG/8e1CCrOFwcA/cuRJlAUGo1um09UXS
+					NLHorryPxl+mAg== )
+			3600	NSEC	ns1.izwan.p42.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					tUMQhwjh6nrtspG8kJGaR46gtHcgCNw0nCun
+					oq6vIlIbcJDNd8v23rlrd98sS3jOrLcwf7uj
+					VT33kCA/VU12NA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB3hlQU2pRYhGi/JXDzQmsm/n74PGa
+					u/sUn7yw0nM5gQklqlgu+26O1kwE4n8fR28D
+					iFRi3IRIi19lmZeGv+Mhxw==
+					) ; key id = 2654
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDwxrZY+ocIDCMO1Y5NNB3+mwQYon
+					0ktEMpCQH0f7cmTJWm3CJZdGuC4vSyCHQGAB
+					rVMpx39sAIGk40JqRF/w339ZMhpyuK5F3ogh
+					9XiYnc++71liqGbXMxtMh6kp7cY8xLl1Ki2e
+					sgVkpvry4d3s5uS8v+NBXtsANukileOlGRp5
+					myEVZJopehB4zNFtVoG8peOEJTBMfTOaI6dJ
+					78lPrvvKlQ==
+					) ; key id = 16056
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					HugQ99ebXFiPI0iiub0Xi7XMQPnHlt/iMoR8
+					6fDYEZRPYipxFtKzLj2CR6UG/xr5aCa4+k6s
+					XtB0+oOIDwbkHA== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071845 (
+					20091118071845 16056 izwan.p42.net.my.
+					A9QiC/+C5YKQY86u+I1ukkgMMS8gA5h2OOWd
+					kxr1xCSc7y3Vczgc79zypUdq1NQjLBBGIYtG
+					uLW56riwzsoDof+hf7R85d3qhBwg0/P45zfP
+					t9ujFmKg8dsFXitfJQhpwIxrJ8syHcoWXxrl
+					+DnzOn+6kazJRjcb9XaU/QAuattN5pmxH9rI
+					qvtiRg4gUm7Uk99zPr0hkkjiYs+crA2Sbxvb
+					0Q== )
+ns1.izwan.p42.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					QEgM6n8/qr/ty20fbuotEZ50bF5B1RXdEa/D
+					yLrbux3CgKGqk+H1lLZEcW211SjT4J/W1d14
+					j+CseMvvjm81EQ== )
+			3600	NSEC	test.izwan.p42.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					YiPxiGDnnBHt1LOanFHvxncuyZGMfVEH01Hr
+					e6hTs1hnJrG9n4WgFo9HWrW5PDnbhVpVpIFm
+					+/xmGu4iAQXKCQ== )
+test.izwan.p42.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					zCgHySpfQLPJBwfYivzSoqmwcP2YMi68BWnB
+					O9WShYINg7k0FkirPPHx0yaODwuTUUporNKl
+					UNIBDTYh5eK97A== )
+			3600	NSEC	izwan.p42.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071845 (
+					20091118071845 2654 izwan.p42.net.my.
+					j8kYY05ei9cnCozONlPLUdo5MY+dtUJn1e/c
+					pjb3HFMUZRzcm9sdgDgAmLsL9SN4m5bbr/LJ
+					k5RA/VaWPwqOSQ== )

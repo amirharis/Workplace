@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 17:02:27 2009
+; dnssec_signzone version 9.6.1
+try.p47.net.my.		3600	IN SOA	ns1.try.p47.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					nk2MYqQAGbs01vZ6nyvf/eFApFR9lDL4iLA1
+					QGOJfrjPxona1umzpVwUUhODlJPS4N15MH0Y
+					HXMxwtdzbK4MHw== )
+			3600	NS	ns1.try.p47.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					EYBRcNVdV3Oqm3JaBV1j6jQiKlMyPzh7GBNI
+					tx8LiU8UltWc/+B8LPQ46MOJzAXOjGFBR8RL
+					cFvoiLWCpSdNLA== )
+			3600	NSEC	ns1.try.p47.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					eAyxjNOpQCPY8ZX9TP6e1/G29nYAIfymcZZT
+					CDNhltbWHskozWRFgA04iuv9Bw1T4L4KSP32
+					589+xbQTwcR+bg== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABphmCeAV5U8HT0Br8vgJsmKDUnKcH
+					PSIc7KRG3xDfMB8LrB88Qq55TvKw18DcjnJK
+					uNSPnWC7lmQWCJZY+WBhUQ==
+					) ; key id = 50792
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDxgmGp9XFv0SxPws4LEiXEilf+to
+					fcKDblRKJgkIDyEa9mo4OxfmSyzl29E4Q3ME
+					yOfg0vXKig0ADyynVTnMe3ksWNLRqSP9rnU3
+					u2OqJi6X3DhPsfvNUkak542rTqImNrmP27kJ
+					MR4mOEkaHerFrFgMz8QUGJlJ74O2AbzdC9xt
+					YYOr0heZKgaqZyQGWqc1D7KJ0jJ2i+ss+0i3
+					Y+R+n9MD9Q==
+					) ; key id = 55050
+			14400	RRSIG	DNSKEY 5 4 14400 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					YH8vD+CtEYxjbY3QDKs9Yz5mkFRdR68O4LQA
+					zxk5foWZQp5AIXzfdHbsUiL7p4VHxBEpvs/x
+					4ORNoq9lkaLFLg== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128080227 (
+					20091118080227 55050 try.p47.net.my.
+					DSBOb0neGSwaNo8xz26/aviso7HUd0S4SnRw
+					APWJ4kLnCDqbPDqOG+YPOvmKjzIJVATEfH4n
+					dzlsxZ7JiJT4pQo8TzWWNOumCAc9QOUuwjVg
+					gihSoYMRGtMFsYofSTPLToKYyEqnmYNvjun/
+					SZcWFaTbih1fOTW3LbMMyKo6r05Zpf68bGDN
+					uREDqO483bEk6H6NZIuzTX+L7H8Yu6f5W6qB
+					5g== )
+ns1.try.p47.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					g7qgDTt6hBLiG+cSmTtVacO8Hx/KjaLU1KDM
+					0uUQBe2FdBCpXEHVhixKFCBZIe9UmOSNEMue
+					S3gpv6RXw4L0zA== )
+			3600	NSEC	test.try.p47.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					aEf0z7vPKD3MvA2VGXQGGjXrSPYlxDjloOLH
+					bhldyu69C9s8NRa+sr4xw2ztL9C1AkhrQxol
+					miIZZpeJMLCUoQ== )
+test.try.p47.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					YZmPP8dem9fTIr7bWV8QNxFR2iIZApJIte2M
+					S1Ng2jgaKdXcNdQ188PSkbUJtY7hbBqrUYyX
+					8stsJq+xW8ZDnQ== )
+			3600	NSEC	try.p47.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128080227 (
+					20091118080227 50792 try.p47.net.my.
+					PnNT+ZB80VXRz36SxwF8dmPKbEwojguj0WyS
+					spsv1pDadcnAtAqoqIk/qWR/9CH++yWp5pMv
+					JPaBopiPMjAKTA== )

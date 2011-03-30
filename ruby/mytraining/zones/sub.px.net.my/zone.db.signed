@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:08 2009
+; dnssec_signzone version 9.6.1
+sub.px.net.my.		3600	IN SOA	ns1.sub.px.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					bOPMmP6huyTuN54bPp3PG3NrsfoPRZ36U8ro
+					6oC3E8iCPoNVYQEPbxj2EetdOkgrs2f7myB1
+					L0G6kVk0EcePcA== )
+			3600	NS	ns1.sub.px.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					g49/qMlbD5AtXH0t5U0+AVZl2T0lhGG5Ci5v
+					y/TJZrWYqYsjgnnkoXP0jBuqDRRccrnsByrR
+					NVmr0QTzomAIgg== )
+			3600	NSEC	ns1.sub.px.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					BX/Op7SHZkhBAjgA/GrpMNgPdSNqQCBbFvEd
+					4CKkK/7o3xhQgg4GDz/frAjIIvbWhk3qYGJa
+					QCiq5kr777Lp2Q== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABzIxUZxigydQRNamyEMqVkuWE13zP
+					kBwB9VXmnnl6UaI6XxSuDoA3OZGRmJj71pVM
+					20P6/VKCEmlCbdcmeStf+Q==
+					) ; key id = 15188
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCs5OkG0+lw+dZf316IUqUkh4fYtR
+					zUhvs6SjIFEeTWid6npCYiG4SqS6DKV5aa3B
+					j4qyhILNDkyioHTnaZ9LULyDtQgHFUX8wapP
+					L03VOKEyJasU2fzCRMgch2ZO0qMrNyf2wl6n
+					yYIPUCJMdAVtpq4znYD2B8suj4IED3aGc2LY
+					biI8V+/GLKM2mZ6mEJsyISWWWph9iSGc9Pl+
+					n0EouTxwXQ==
+					) ; key id = 33219
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					gNA7euJJtmXCHJeS2G5ZAmm1l0Lx1IFsOufO
+					8K8mejlm+OgOOsYUa5R+vWzmBpjtpQawdw6W
+					ID1/LWBIiLwkPw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071908 (
+					20091118071908 33219 sub.px.net.my.
+					A0n07tzmKd3yEiQ2DyqLDT7J/aEGPlLyUEo1
+					o2xOLUgbL+7Auhx08XIx4HBihTlm03Nx/tnm
+					8ixqOvTiUDM5pQKYpsD3cG8YL2o23ugprqLI
+					Z9g/SfupfUauKigYsM3+jNCp2sLplfmMxged
+					KByJ5xcvdUkBmFXJK2Re6CkQoFWhEz95iVQG
+					6WtIkxpsYnPN63hGiWQ5nOpKmNjRFPllyk80
+					Sw== )
+ns1.sub.px.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					ri+tgI3zIxcpu81bPrspSzAlAXpvxqlu33X9
+					X2ibu9RY69yaD63pYUvNxWk3tM2HtHW/bW/3
+					0P8bt8C3+I6A+w== )
+			3600	NSEC	test.sub.px.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					eg41+pVv0rj/8Arb0WCHhwlNgD59jlZqooZh
+					mjJZfmVCIMsadzhnhhTnu9hiYhLtFXD569Fb
+					T54e+oq6iIkx4Q== )
+test.sub.px.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					gYVT94ApPMWVM5n3MDcVDZvsB0XizLL1tSvA
+					F3fwuH67zB38ezLqklRLJBdJILZlkFbf4XpE
+					sX4iZXLimzTbuA== )
+			3600	NSEC	sub.px.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071908 (
+					20091118071908 15188 sub.px.net.my.
+					arz1FeG/Ku7RJt67S8w8GlBK4igQskSdx2Bk
+					KleYa2yR2SX/QAjd6JcMPl5VUG6TdIzUF5BA
+					1SdwTf6+yMOwsA== )

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:59 2009
+; dnssec_signzone version 9.6.1
+sub.p4.net.my.		3600	IN SOA	ns1.sub.p4.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					rHZLetaL+vM1lIsozqBK+lD+IuadaDBVdr9I
+					U9/eLuy4RFhdLVe454O7MzMWRNPuLiuk+Anc
+					w9ZPckkSyg3sJA== )
+			3600	NS	ns1.sub.p4.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					xH2rIGvJPN/vwoZL4uxjt6Ad4PFGSw1wTpes
+					KKGaiGAMqDzcfPeJcpV/waYsSGbgtNsbIR/J
+					khnJeCySJiXtEg== )
+			3600	NSEC	ns1.sub.p4.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					S7gK4Gko+/L5ghJQlHdv2KHw6ksTBvaDXWya
+					bJWAmuWvTZHEzsLLGeGIYUzkdEQA+CXUX47N
+					xXVKebhWQlIeSA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB866vmTzU4+xO5CBAQvtB/cbRiHw8
+					blUFHSvkaASl9Phauy6u3LNZR5YBtvF9weh5
+					Av+hACvz7v5LQvUOrjE48Q==
+					) ; key id = 63002
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDBd3fFbFTLT1xePYfLias4j/Xysv
+					vvQyeSOzvhbX7Bv8zJMyPfcSbZuCk4DjOD4y
+					G/q+voV4M9mcRFuScDDs5gbfJoo+EXxaJz+8
+					VXcg2qL5QwK4dPZajQCr1hjscSYYRYXQTGdm
+					lrQbSYlyUrws5LtFbXyW+EI3rEnwMOW08obb
+					coZ1ao8WcWdEnkyPLKWpjiI9E1/zB4NsHT+E
+					2qKvy08RzQ==
+					) ; key id = 39399
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071859 (
+					20091118071859 39399 sub.p4.net.my.
+					Cz7r6BC3CoMR/fQubmZOa603V5nTxesi9m72
+					bUCCRcj11iKtxsPfP2VmLJjJ5uBc141gE0E1
+					q7WBGwftNgzK3OIeS2UkqYovpRQZSkLyTq8n
+					Gw4sr8ValGfVpm2xfiHVyNGrY0bFScbUlyhJ
+					OQepeGbINLFMSTtJhTmNGyR5KtgP0rBR91aN
+					6AD3G84wnFQTz9Wh3/MJn9NnkTVkBIIFWZ9x
+					iw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					3RSDe1kknJmSIzdA7msIYPWU68ZisiD7+SBE
+					glUTbajnhxbcz2FaS9GR88ot9navrRc8/M4Z
+					SKbNEIvw6AQ3ww== )
+ns1.sub.p4.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					NqFjyOrIqFrHnnGmCR4fVWq1wDwsMpAeRXR2
+					u5zZvkn6FKielSwWlK6RfMCshWo8JLPpV/fq
+					fs4BZrzB7ZgNoQ== )
+			3600	NSEC	test.sub.p4.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					sO11QDbw87IzjeqvX0fuec25HKkVediPvnzo
+					qevsUWpxzEKb8/eoXC+cTlrKIFLjwTwGwJz9
+					Ezkc9lcDfR7vhA== )
+test.sub.p4.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					WEomelQUGti/Ao1LI0EK3bAVklfdtyhyriDl
+					3dnP2vPhhjsfdLM9s7DBrj1tpdxtZKMS9ID3
+					eAQ6p3NLOZKcDw== )
+			3600	NSEC	sub.p4.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071859 (
+					20091118071859 63002 sub.p4.net.my.
+					Vx35gO83RUtZPl0FrXR9jLsYh/2yKj5O/DZR
+					pz3x5KlNQgWMzOnBGxm6UsfIf6FMB+jZH38t
+					iuLeUxkW7mkvFg== )

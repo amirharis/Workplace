@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p47.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABC/0G9NxCphmGcokEoU98pDIZQ39N
+					YEKuLiVcOIB2hMFGvTt1mtCcNQPWN1tuACYP
+					T2reC4mrO2nse5LJnzqCRbMBy++4PDXLxdBM
+					Xu/v1RgTUFH8+pG5oPTKNhGJwGbMdg3R8VE0
+					EsQ0z6Xi0HB2NrMcpFoiCU8cyGoRU/mYJAZV
+					lVrAyYgeTu+yMc7OkEYhbTx6Ce2OW4/0Tclb
+					mHWgrtU2Pw==
+					) ; key id = 36084

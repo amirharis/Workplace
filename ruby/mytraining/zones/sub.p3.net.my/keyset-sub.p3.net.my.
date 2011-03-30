@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p3.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDExYhgqQ/gn+9ZPlg7gaUsuhmltV
+					oRRKl5m0zF7lrNsrmWsJ70cIy89/hG+Tyefw
+					npmr483VOCxo8EfnBjY0gK05ZDDOvcHCDAlB
+					P0Ke2tgKLsILvVZ05ox2IM+sBFdSbGxA4t04
+					Uxi6GwTxLfZNZazDTgdQx+2Zt1/KJviG18VJ
+					k9xrOHKuGA5gW4SPQ8PXxk8lxhL2vzqzuxea
+					5O4lbTfRyQ==
+					) ; key id = 9969

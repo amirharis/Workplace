@@ -1,0 +1,14 @@
+$TTL 3600
+@              IN       SOA     ns1    tni.domainregistry.my. (
+                              2009111801 ; serial
+                              7200       ; refresh
+                              3600       ; retry
+                              604800     ; expire
+                              3600       ; minimum
+                              )
+                       NS      ns1
+
+ns1                    A      192.168.118.138  
+test		       A      192.168.1.222
+
+$INCLUDE dnskey.db

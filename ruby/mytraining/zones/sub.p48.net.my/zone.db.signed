@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:20:40 2009
+; dnssec_signzone version 9.6.1
+sub.p48.net.my.		3600	IN SOA	ns1.sub.p48.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					30q0w3ju9/pmFM13mRkqNPwnLD0XTJ21PHSO
+					9xsLiIF0l/s7taE1lkOCp77vqTitybpyXtJt
+					wIjO74B7UcHM9w== )
+			3600	NS	ns1.sub.p48.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					X+m6siy7s9sv1SNoUawMAHafB5U8RTyopKPK
+					MoLZ3OcHlEEd/Iz1YDjIdZol+9e3b8z88NSX
+					EwQZ6egbvmm+Ew== )
+			3600	NSEC	ns1.sub.p48.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					9J+qvPCFOrqg0b21whN4XqqJVJ3rZHZBCidq
+					bQZABTbTaGpLjPIZ4snOdhPLffo+M2whCkvI
+					ukoCQ0XCenMGlA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB+KNlb0xMx6kVPCDr56NxvWXJ0tp4
+					maiJO4QyjExHbg5V2EZbEZEZJpAlgi/FjlN8
+					GAMPxdMbOFjZuWC/qXcWUw==
+					) ; key id = 44177
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDetH5oAheTfbSZWCAajLv8nqQkK5
+					zTr5OPBaczTOCT//yR5Qe4PMJDxrTp6baDQf
+					kBalVhe/QxRMu0SMiickNo9bcip8E7ryd0r3
+					KWCDdUIGsGd8qQ4TC9CPwe2MPlDCKtu2JzeX
+					3ljupkcTrPP1qLAYh8SizVZXHLvvfwMRicfm
+					2iZbBoD9A2N7hRxeeKExP+wakFZXyZfJTbNx
+					ivSoznWKLw==
+					) ; key id = 29028
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072040 (
+					20091118072040 29028 sub.p48.net.my.
+					BfoiCHn3iC6b8bQhrMk4+lOqulcluL4WDo0+
+					ZgbbFWxwb6b76lDzaJeUWKJAxsrmb0oe9MuA
+					RxOVkASwcY3K16Z8XgszU8xPCGkngm8Xl64t
+					ZVNBf5YgGH1Lz8/cO4y3OOk2kj1wtpee2LA0
+					BBsTa17Fo4T9YkH26oLtJWfKLnzisAIG/JGs
+					jl/cZXUNAJb7niok6xNcNAxkz04LLx479sT4
+					NQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					3/lQaU61bDUZ0Q+1B+s5Peh/1NGXDdqOZK1L
+					+7Lowcm1D/l3CUL/+XNDgWBHJfVG3zrLyIre
+					25NuZ/DCV+FA0Q== )
+ns1.sub.p48.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					r83fpIGihnRaoajDEScMPxdIegA5R7+QGlLz
+					+kkQoo+azWRJSrauVn/1S1rI4ARDN3xCXIkZ
+					diaXMtuwY9Zzqw== )
+			3600	NSEC	test.sub.p48.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					lUEhI9bOscwbBqiCSX3f/JQC312rioXpZOEj
+					+3o+OKQeQAhBosxLCxIenDY3Ns1QprYkDWH2
+					NyM3ENxEMC6PYQ== )
+test.sub.p48.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					F49WwrnB8uZ+widhQirf90q9Rfmc794uTVFy
+					bJGhuwcnnBYk7dCs5HyB+31Rvw+hoY/jN9dg
+					jx36QNZH7Omwfw== )
+			3600	NSEC	sub.p48.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072040 (
+					20091118072040 44177 sub.p48.net.my.
+					z+LJYfQlIFZKA9BEiJjB/QV+Yt9oHMzT8Gb3
+					uYrU775sWIaPhu4rPb9DhMO0NqZJyVXK+q+0
+					5Udiqty9w1muuQ== )

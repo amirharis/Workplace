@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:26:45 2009
+; dnssec_signzone version 9.6.1
+infiniti.p1.net.my.	3600	IN SOA	ns1.infiniti.p1.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					UpRRV+QsPzHAQHzLBxI6pzAtYBMrRAIE9Yig
+					wEY22YkxQVWlSb6Vc2KF2xx0+zU8TvQsVM/w
+					nlnJ8gWiqBKjhg== )
+			3600	NS	ns1.infiniti.p1.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					kJC21ni0YuyrG1Pr4jkTOAIYz41UZZV+NwPs
+					zxViO2HSufVIxDkpnhgB+RaEyNd4nz8v1aUn
+					/jLxIss68xp/jg== )
+			3600	NSEC	ns1.infiniti.p1.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					aHUqr2MzVcpuXKNLSyhP8n687XyfYPI4q3AA
+					vraI/qPM17XkNY1vP2kkOMBT0OY4rRDPCwrV
+					ut/xOpNMBNmkrg== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB1WZGz2FDTxG0c64LrYOg6DEV4Lma
+					L9qR8coOygPs44pKGeM7RzuJLXpJQEKGJ0QP
+					Y1nH1Iump/0WTxCRcxiOiw==
+					) ; key id = 65264
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCrht4dfiz3LPzuJPFrOVZ5OQTCoC
+					2uCqqMssE947nLQAlCKNdf2vWHsy3ZNB2lA+
+					Gt28fj82Dm0u9yQ7qM3sO5DXfvrxNFgXoF/Y
+					5/P48dSaF74vPT6lUFBwy8sfzbtRrJo+56Vg
+					CI5LxJGS06RHWltysuHDgqEcWeU5TV6s4PXD
+					K9FvVMWTKr4TCGypXcMg0oIM1HtZrSmX2Io2
+					Gn5MejF2XQ==
+					) ; key id = 27558
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072645 (
+					20091118072645 27558 infiniti.p1.net.my.
+					CStQFPLf94dxqBQUzDtWfp1AQzGouu0smdH5
+					J/qZSunAeedyZmLg3BPaBCut0YmkcwIpc5Ia
+					7Eav7VlqnWAzEeWXBjP8VpHfkQuNEvzAQVOE
+					cjsZuTLUyC+qW7DWbnjKeqKdEhXg+nkrNk7W
+					rgEL0kUQYj98U9XV95MrM1xluE7r0c/6zq76
+					DVXD2q3ETIZEEuXS+HwesGQTtZsOkPzeIevi
+					jA== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					j/qsSU0YsYnC0WmKr1ntXcEPKAwXy77EVm6W
+					QSeIMZKc/qU2KWSuw4Kl2MCTlSSdewSME2yF
+					Jf1d7Kuh74+Iuw== )
+ns1.infiniti.p1.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					JpdgD7y31SQZqtslyvXHLkB4QxBq62BRxO1k
+					s5hDi6sE+fVZ6dDO5U7/JukLkTzf9A4rXK0t
+					BM6aCOhoQMMB1w== )
+			3600	NSEC	test.infiniti.p1.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					WQ3ArvWSlYlPmxV5N3LU5nH++vbyU/8GTynL
+					h3HCF4ZPyuT/TXvk26+ZxUkzfeR6lqx1L3N5
+					6dbUf7/npOYjZA== )
+test.infiniti.p1.net.my. 3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					gu0tXJFl6iOkkB+tkBO8l5CbVND/tZKtXBHw
+					wQ8tirttLeuNxWjRlp6UkZL4lEGod/ShZ9XW
+					CXvVw3hgyVrtGg== )
+			3600	NSEC	infiniti.p1.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072645 (
+					20091118072645 65264 infiniti.p1.net.my.
+					xgzA5aEznvUwE+Kr29FOeqK29w2S27PkQD6C
+					2gyYlpwPaOqtDD+kAop+B/Ccq4W4U30qzt+b
+					+m7TAwLqEH2KXg== )

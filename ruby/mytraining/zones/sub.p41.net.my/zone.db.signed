@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:27:41 2009
+; dnssec_signzone version 9.6.1
+sub.p41.net.my.		3600	IN SOA	ns1.sub.p41.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					NTBGDMmL4urCZmGNBOSez1ZWP62hdSwp2kVI
+					XuY4AEymSgcli78u9dTWo44J3xX06aAU0+4N
+					qjeT//p46mdVOA== )
+			3600	NS	ns1.sub.p41.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					jBWbl2Krq6rGwB9fdrlFufzdnZD3tpPPnnJ+
+					P+u7hF/sWVMYcrAMcY08mVPsr58Fg8C+nXUD
+					WvpCc2P2J19B9g== )
+			3600	NSEC	ns1.sub.p41.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					GpuDfr6w2dxs9H5nxfT5KCSu6DEq2Wv1axnl
+					BKAGeMapTrYTCOuZq5qjxVOPVz9q96YXOXTn
+					ZtNmKCDvdnEbQw== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABu7rYSDYUHDTdFrUPKMgIrERllXUt
+					gWAty7TIe8AJIV3HZsIXaqMjQh6Qb8EDjFeD
+					xHsXzNBpVYGcC9fRwO+iVw==
+					) ; key id = 27179
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDRM20vcigVH9TjwpXtol9Wec5Tez
+					JTTNJIZEdj3ZV5MbVUcPGlNE8vVCb1iRIm2m
+					ueapd5ALv82zbeqWqHpgWwkguImxVy5aChcZ
+					9KZe4wD7uF/2oKnesd48Xt+bcXPBlSUoe/T6
+					N2YkJMRqut5cx04CPIT4neE1vnMGrciY5VZq
+					bM6f4CxTRPJ+cDPUz8uA0tUEE8cI2DH8qDie
+					ycuzWG97YQ==
+					) ; key id = 54855
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					p9OxhotTHDiD1Km5Q99XLBjEM8HTm3k0zuBo
+					yY6yW1S9kG1kyO3N9teVPP95m9O5DhB3fL6X
+					q7tQxvZn9AalbQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072740 (
+					20091118072740 54855 sub.p41.net.my.
+					CQMX1SMWWj8qa0PLErTR+Xy9mPyE9wx1JBw8
+					PUpwNccosTDp5Tz3wXuVzPN4SSgGwT/7CgSN
+					vuLw0iRVKNFb/0V4KS6F/xVngi9ZkA+05O7q
+					4l8Jg4Y3lsWApHwDedwW+/C4YLteeBsX6Mt9
+					1pizxaNFJGlFDucHU0DAtV8NawWeZQP85WOm
+					LNwCJc+slZXmte2gUOEpnqkEJS3ys8gz0vQr
+					Nw== )
+ns1.sub.p41.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					d0McBwz14DMDZMljPrq6KGu/LpJXJTxRo+8j
+					PFGf4p4qTKC3xpKt+Y33smFXquiNYO2MIJtI
+					cs2BjhxSZtc2dA== )
+			3600	NSEC	test.sub.p41.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					V6l4C1dOxzeOG4ezyi+W4Ug3h0Oa3hoMg5I6
+					0MllOS282ygstJzdrrNQISFAGllykwGkVFft
+					+TToL5eCk4hLng== )
+test.sub.p41.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					o4DOlNQSQk/4JCiR9EVwTC+TTxV1hG4eTOij
+					dq2KNSfPk2q7vZ09djV0ayWuO0UO5HzdHyQu
+					5FDYmGXwFLvDzQ== )
+			3600	NSEC	sub.p41.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072740 (
+					20091118072740 27179 sub.p41.net.my.
+					nbxLZckWWPq+jaq7eAGSb+JHCSYdkuF1xVeQ
+					XG2oZEl8EFcj53unNyGAGlePJiIL/1vjdZpW
+					/Tm0b6DSzGXZhw== )

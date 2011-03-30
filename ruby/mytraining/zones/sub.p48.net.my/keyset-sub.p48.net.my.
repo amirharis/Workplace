@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p48.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDetH5oAheTfbSZWCAajLv8nqQkK5
+					zTr5OPBaczTOCT//yR5Qe4PMJDxrTp6baDQf
+					kBalVhe/QxRMu0SMiickNo9bcip8E7ryd0r3
+					KWCDdUIGsGd8qQ4TC9CPwe2MPlDCKtu2JzeX
+					3ljupkcTrPP1qLAYh8SizVZXHLvvfwMRicfm
+					2iZbBoD9A2N7hRxeeKExP+wakFZXyZfJTbNx
+					ivSoznWKLw==
+					) ; key id = 29028

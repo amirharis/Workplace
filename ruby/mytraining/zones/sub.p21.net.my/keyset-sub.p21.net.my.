@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p21.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDBQ49dT2sxIdXbjv5qPYlGd1IZmD
+					gvq5N0rQ50zwLvE3yo9p6GoNvfL8IcC+EYmD
+					XYyHcNbaw/M9X1aiW+7/fPd+TW11sSCjn7BO
+					TTmaIiPz8Jt/xJppaNJrBIJfF4MoNiBL+y0P
+					B5payqoUoTEgDHO28khZEZ+d9vz5FBg4wzA5
+					pxl+2t0y6fcqhT6miTAeisRZJ/8OA9TQDJpE
+					+6NoHNSvaw==
+					) ; key id = 27420

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:45 2009
+; dnssec_signzone version 9.6.1
+p8a.p8.net.my.		3600	IN SOA	ns1.p8a.p8.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					cIIHWTMVzuRuzxt1IqWlI+TjZIvLW+HQ/Cxd
+					yCdlZztn94nG05xVOv7I5VX7bqZ2UGxzCTqd
+					EzIF08aIGpI5iQ== )
+			3600	NS	ns1.p8a.p8.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					D41NGOUfOtnGltWKEX4rLYM6JGzM9qMX/hio
+					A3Im06bQG9fecvbJXkn+xbY8fY+2RLVyv2lr
+					JrMSuroJtHv0EQ== )
+			3600	NSEC	ns1.p8a.p8.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					nPCyM1c6vqvJ2Ska4K7RfNEQoWffm+torj0/
+					0UOB4uOoxqL5jeWplZeFt1eDXsR583DwhL46
+					JmJgAxb84IEBbQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABrkPQT24KsvTzkcTbFf9ZRGIR3lpp
+					yORwlSvNGJPKEh3UnCRZERf7xvhiBIX+M3t6
+					XsrTjiUBd3x8K6rwcbI4zQ==
+					) ; key id = 33785
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDtEircIIPtNY7BRnKseAn+NQ4jgr
+					udIF6nzjBIFWc5ZWQp5EthBj39JKL9gRvHxd
+					g/2UV02Q1w+F8+JFKuZkADTwdN6a+CnodoZy
+					M/iHla1xTm5U6cxvJ9wauhXU3jKJ2PXPPeke
+					iMQmAXKOJvAw+Z72zvoaBNhrtLAYKgYL2kkI
+					5jiBM/kGS3kTc8nzGHucH6md8y3HwVtPjiXB
+					Z8USlZRyWw==
+					) ; key id = 58278
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					AUtEXlKL2J9WLtGnr3Pc5PZPOBEqJFU155nK
+					Kl2HDEeoW9+NE8ZaT4nSnqN3+FsCDXicv/q+
+					G0d7SH1RW4Rf8Q== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071845 (
+					20091118071845 58278 p8a.p8.net.my.
+					AskDfgpQiWtbRHVxc0nv5YuFLyHUgKVpa2Q2
+					+0nqnQNZD/Ln51PIhZP+XquzEwMGo8MkszTD
+					BrFOGASIcknY3Z9gNnTKYMGXGhib/8MavBVl
+					lLxNHMgGCbjyIFl2nOADit2ftCYf2Nc51yp9
+					asWsacJz5Ioe5YQJoHJGzoJQpuGeIR+CzvaD
+					gzeKqcZnY2RR2W+K8zqWlP26CLW86ZfE1MMT
+					ug== )
+ns1.p8a.p8.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					D0QYf1CeF1XPByb5I79UKUOQVufe/iIxEBu7
+					a3Ks24GqgIm01Ms45lGZAM5QEXMCATDlfPD+
+					6G6F+4o3XJxInA== )
+			3600	NSEC	test.p8a.p8.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					cffw+WAQmgQmwTk4pW4sZ9ZtL2lrUka5Jj9m
+					pSky+tgyZlauiP1BYxHh4hl1WYPVYIPsLBKo
+					H8v/QjyOiG/Q5g== )
+test.p8a.p8.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					e4EM4N6t8WJzNZggiS1VaYw2NcWy5/WlkP6l
+					E13tzLbtLq7J9+96rUFBsMkryA6wfdRVK/b6
+					wB7vcPniN2gQtQ== )
+			3600	NSEC	p8a.p8.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071845 (
+					20091118071845 33785 p8a.p8.net.my.
+					KqsEHI5ZaN/+DgVjugJvNUjCpwuc16vOC+aT
+					BKfZmcnEnE1h0+GfBhYHUniUoI73eq2x+H6U
+					e60Yf4ITAD8isQ== )

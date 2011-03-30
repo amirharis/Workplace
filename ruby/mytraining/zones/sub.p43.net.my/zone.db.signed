@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:35:28 2009
+; dnssec_signzone version 9.6.1
+sub.p43.net.my.		3600	IN SOA	ns1.sub.p43.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					TnVC53o7g2XkZ5ihSQrXSJt7kYPoPhIg6BQN
+					nvr2FVCC+MMrQTqc8vTC2qb+GmrlXEoM7bxD
+					LKkxa0TG2Q5fDQ== )
+			3600	NS	ns1.sub.p43.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					PCp4yxr3oPZR6Llhy/142NcZ0X+O6SxnZLGG
+					zQC6ToFWlKSDTmT84NZjCEw5FFmur1czwkzN
+					RMGBFJ7jbbQtkQ== )
+			3600	NSEC	ns1.sub.p43.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					qwolvkPQc9qoZtDVITgz+WThUPiy0YAlqHhi
+					tnRFN40d7ZXCXwTDeF1wJMNOqU1K6NLHM4Xs
+					hy2/1dWum0j8yQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABuDVt4HNnfS2umpdQzlAX3u2Avv0U
+					QXHr10QcXaYKoKevl4mYOkySiX6ntZ4iDrZg
+					qTULea4uB+06+kL/gVkLOw==
+					) ; key id = 16607
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABC7kgcYnkRxUYGIpbRsb0o02Towr9
+					BhFM21h7KkMCdcTW1R56i9+O1K3eiA/Paluh
+					4fvbi5IHBXLdHt+2skj3WjYiYbLB5na6ggsy
+					jClMWyz8wOUEQJmVcSj4WT5kQYDMVBu/ZIL/
+					dQ+UMf1l9IThbpzjpKCsyEtNysH55gHljgn0
+					U/Q9AHkOJii6nFN2/u/LwFCCyKlHi5ihv1lu
+					lOakzAx6jw==
+					) ; key id = 46083
+			14400	RRSIG	DNSKEY 5 4 14400 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					KcvxQq/kG40aVaUkYTrh+nerGdhAWM8XhBLs
+					PeKUHHNqOmmC8xPe0mTvcJ18ZHMPoRYiorUv
+					yk4fca+tftPN5w== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128073528 (
+					20091118073528 46083 sub.p43.net.my.
+					Aclnr0hVWxk9JNvb0oYOiCDhyTsx0ovXoII9
+					z4+M9cajwhU+puhS8nUpQow7Yg6CW49Q5izT
+					2uWXkvb6N0ng98lbpCaBiGNEZyDOf8Tunves
+					XifqHgaOJVR09XOMhsPk52h7NV76LKG9rlo6
+					57N6EKhtW8pYGwk33KYZYZkg0Fwo2HsP8RLk
+					aFWYyWM35LiSLyNlVxfL8aRoeAKr/Ox0gETU
+					xQ== )
+ns1.sub.p43.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					NpA9umaAxT8DUFucYgdMxRhPu0E+DOQ3FngP
+					1SlXhAuoe2RlmWWsBoAfSUqAITUQ0ByhiC4G
+					dE9Ebkx0lwP0Gw== )
+			3600	NSEC	test.sub.p43.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					Y4Iugou0K1/J+nJDLDOZozleLzSuDHvN3vgU
+					1ubkIhBV0h2AlYwa/gWXuX39nkttoNGEAjNA
+					su3l2ixVFh8y7A== )
+test.sub.p43.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					Lp+Ruixfg7srhEbfSKaPFLfXCd5Mfckfqkp0
+					RaiNNSrO4uIwKqbxDhpjbAJoaepJF9JtMjWB
+					ONkZwnL+swNsDw== )
+			3600	NSEC	sub.p43.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128073528 (
+					20091118073528 16607 sub.p43.net.my.
+					AK8AJEZPRTmKHZ36kdR6sU8VwRmMJ0i2XISL
+					kyBM/S9WWk2DlhCML/Vth2Gq+tdbBzfu3KT4
+					O/aOkb9kDpz72Q== )

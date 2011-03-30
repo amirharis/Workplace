@@ -1,0 +1,10 @@
+$ORIGIN .
+pwtc.p7.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDVolkNRm89tPprfxcvRMe0dKf/IG
+					sj51Un4lZaNHLUa0nQudHeQKCEvHtSsTx9yn
+					RoWwtp1USBBgRst9IzuaeTXnr3nLhb9j91gP
+					AeTerLFe0uwUYKLDMVuS25yKoIOHbQkuiMux
+					ahN9G6dhW7btdMzfeHHz13ELa+ogl8nltCpK
+					6eZBOzoanyPokFHkSCitos8nzewXGXu/s2lX
+					l28FMA0u2w==
+					) ; key id = 13824

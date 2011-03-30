@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:06 2009
+; dnssec_signzone version 9.6.1
+sub.p39.net.my.		3600	IN SOA	ns1.sub.p39.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					JUmmlnEAifcMNu2nzMSS76WMxAHAVBlYglnH
+					XelmDk2eo/9qCJ4GhT+K2eOESsTH7T6w7GLG
+					/RnLNDYj1WI1WA== )
+			3600	NS	ns1.sub.p39.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					J+r/fEhVBe3ZbhzRlYQqlYJj10sbvE0tiIpa
+					s5PxmaSXnU8aGXIXD082k/fzKJlWZ/AWLfop
+					W0MOgD6qz5kf9w== )
+			3600	NSEC	ns1.sub.p39.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					FbecVLGYzleeLlLFwDe+7IozORjQ7gbYNLTH
+					oUVyhAkDBemlDhD9wdBIBxLuH6cObI1Gjikt
+					rHiP6yv5yDxFdQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABoYpNiPhWS3WWMt5CeE0YschfdYy0
+					2vy5DH9wfC9CB0MV4jvMraPtpW0lnHLL6GIK
+					zUO42V/USS8RVRJyYrMSFw==
+					) ; key id = 53393
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDEvmpHd3vhVq8Kvz4LEEsy54Xyvr
+					b0WzHe5X6pgNeWLr6rNBetMd8YFuqZ49rfQW
+					METfA54N5CkQ6nt3p2sWWr8mG9Fh8mYrd4tl
+					10ZysItbCLGlxZPjmWhxb6hjSMASImJfPYfC
+					XJxkjBpHkyis6cNdJdBeTaEjTI+dddKMNjHM
+					vNym+wi6l2wVWjVI1HfR+aPWgInUQzM4deov
+					ciXU9fEcow==
+					) ; key id = 36435
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071806 (
+					20091118071806 36435 sub.p39.net.my.
+					APBp5EO9UbDAofO7JJ3H5yWHCdyIoRGGZRo1
+					AVREW/cV+d8BBNIx8EcoCTox/MYnt8962WCb
+					zyVpnlBhwfcQd1vL7lOxaei7iYYP+z6CKwym
+					AFEgtSckVVlF0mrB4ZI9whUN0WWZ4GWajEDq
+					HByxvhb/GXbFZDdfWQRuTsbdcyOg1XPh5OhM
+					oMlqMtRKtbbi2ZsqQoeDWGr/8cmdfWkvdGlO
+					SQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					FLRs5imaLBLIlhG0EDib726J1Iji/+Yw50qW
+					QDKrz94vqL9VwZAir3LvaRsJ9cM2n3U5JWNY
+					6FM1pdayqzAc1g== )
+ns1.sub.p39.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					k4kBujFpdIdHHikmjzw0SMLZQB0LyxrDIZi8
+					wX3cBoSPEaNMSSTQKzAv/oKhNieKQPCIPb0A
+					0xJXmEkY3Ka0Ag== )
+			3600	NSEC	test.sub.p39.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					IJ9i7/QEfj9Ago2ozkgi2K2ie0+QQa5F/ZOH
+					DwFLu5Ch/7CLfQ/32cGeBeusUslcuSD53pM9
+					m5C8NFaYmRCQWg== )
+test.sub.p39.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					KcappzwSPlHuKsDgWqQTvCIo0LgLSAa7op/7
+					bam6FcWDpgin9IQsU6iJ1EyVpr954hAxmdR3
+					pEZKdEkI+lMBjQ== )
+			3600	NSEC	sub.p39.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071806 (
+					20091118071806 53393 sub.p39.net.my.
+					cnhb26ZKLOP0J1n3HgKSn6up3Q702dBADxfk
+					lxoJV/xq0/G7u9C92mqRXqi+RK8oxe7qcYNg
+					HkGryRbcCpI+QQ== )

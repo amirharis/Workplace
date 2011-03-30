@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:11 2009
+; dnssec_signzone version 9.6.1
+adam.p44.net.my.	3600	IN SOA	ns1.adam.p44.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					GIxhFS8xVqU8cvwyV8COYFc24MEyS8p8C0LZ
+					RfUJ3P7+apa7+AsR8D5ZaBcMfUCP1rZyN0k5
+					HTuN3ymxqfHyLQ== )
+			3600	NS	ns1.adam.p44.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					gogO5ZJRWtRe8YYqqXJ5xXLJSQJUGUlk+D6F
+					1IJeBRCcHB9V3qk1OmXDHwctOi3E+i6um4Iw
+					ZGzABFfbaSp3zA== )
+			3600	NSEC	ns1.adam.p44.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					eRfZGjEGJsqXulD5mlhi2lsw4IwipDklynW8
+					W3brpJyf9N78QJgE8n+79hpbQnO/jeg06cD6
+					GtDIPAa2xc7RzA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB07g8cq0tLBzUx/spxQagd4vpfLN8
+					6WnHVZI/rSbKEUxP2B4g1Gwi0T1jzjesjceQ
+					Fk/WRS8NxmzEgYEx/kJjkw==
+					) ; key id = 21272
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDBuPv0btnOELMjcRF0uzpByQPfY1
+					4KvcQpwcY8rEReJeZZIkZZcqnQlZvITSJYO+
+					8Ig9M5GS3skAFo/mI6iCT3AAl8C/FXjSh/YG
+					CgP6f6UCCD2Un5Yv01fAck7Zccoz6eP3X+t9
+					2/uoduwW1wtlniJHo15JnTv6Ph0FtUorJcXY
+					2Gy/SSl77T7HhOWIRBoOgGGES5T2gC4pk2V0
+					0n8qN35nJQ==
+					) ; key id = 45819
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					D+EAmZxsNHqjUrapHnNeTDcSMZtkfPETPbCn
+					gM0R3MRwdCgLfWG9A9J+CezPuE+NKHafIyIN
+					vkI6+ZSENM1Rvg== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071911 (
+					20091118071911 45819 adam.p44.net.my.
+					CwkmWnuPXWUOgAmkx0Ez6LdxFvYX7Zo/uoAl
+					04q/EQ8UNtiAIprnPX1Mz7OH8/maJCZRtn44
+					AtqgGJDhpZw8GWi5c7Tb6NjuDNscBRzsQIHM
+					ZXFa/utijS3EGXOjgGyOFstpM2sxMoTpkvVK
+					Tk+BqqTzoh2+U9nuLS2a+dbzEq7NB5bGuUZg
+					j9pSUZwifAcAqvxtjcLoTtOIO2+zVNvS/kiH
+					KQ== )
+ns1.adam.p44.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					lEU0LAcwU+m2xrtS9rl80U5o9AiD0D4+fJwB
+					Hn91SAq4e1llOHzlzP1swaratr0omA6Btk39
+					JLA2LJLFGL6A8A== )
+			3600	NSEC	test.adam.p44.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					dKHzzc6a3/IWTp6DhgHI+ze37oFgGTTKX6Z2
+					LgV6jULbCYTSLSt9ERrRQS+s7O9JUh+zQLmr
+					Z2Cst619ng02Lw== )
+test.adam.p44.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					GGp1DyTCydsDHIG6u+JVsEqne4HECpcWmNxl
+					xn9QpXOuo0V9sVCqsqKigw7hvaWJuRrvsiIA
+					lzTB5aEPxRPFwg== )
+			3600	NSEC	adam.p44.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071911 (
+					20091118071911 21272 adam.p44.net.my.
+					E3I59IoJtp0xEtnwKIMa4WAT+H/iBGz2DjKH
+					QMJHC9AFTgJ8Nz3n4VvIyWmTJBHJcRAL1mww
+					Jgo41uWtYr4sBA== )

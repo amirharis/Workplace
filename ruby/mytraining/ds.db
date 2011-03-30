@@ -1,0 +1,11 @@
+anak.px.net.my.		IN DS 60564 5 2 177087F7E5BB3B79E2AAC25C468DEB7F043092898BC5C5C56B51D7CA 807B4201
+$ORIGIN .
+anak.px.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABCsqpuq/oMZwhSLx6113W8uqHkYEo
+					M+wH2IW7dFSL3tvxOHU3IS4FYrotkVQBLn0q
+					SHzG4F0VNKxpVGYNQpuB5V1eXRVJ62byznnx
+					OQuo2mODuJ/+w1dzdmOr6jJok5qO7i6rsuGm
+					Q7u1yimK9ygkwUqT81YybwPie84vAbe3j+iw
+					gSGr9mFv+9KCqap4eo7b0Ua/WuddxCvQAi18
+					pUS+Pffsrw==
+					) ; key id = 60564

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:52 2009
+; dnssec_signzone version 9.6.1
+sub.p25.net.my.		3600	IN SOA	ns1.sub.p25.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					l0/FhWRSeI4NvWn+yT64rPMiagUsRrDtX1bY
+					C9cg0iE035sK31myBLeGmrWv4rUyIba4+8Lr
+					BfNUrVNLUN60OA== )
+			3600	NS	ns1.sub.p25.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					aRqWeVQmpZ2cLT5U5nyRrPfty9rpHgbB68j7
+					0Gv6tZDGN0Hog2hO2pOghqJqXWAosJSJBGT7
+					MEymwqzTdHQrzg== )
+			3600	NSEC	ns1.sub.p25.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					BNrhZbFDUhNjkHAmbswWvemppk65xT/xsEzC
+					n6QdUnoR8/RWiJf/f2EkHaz2eSNf3pY7fJju
+					YZwgQXzBnYOeZw== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABvLo/zAo6dWVP7ekvprHXcgJon3p8
+					O9C9HNeS9JbUWGZiPbYsD8SJnjeCqmC4zWXp
+					wHbkNcGKfMbmCvigIzkC8w==
+					) ; key id = 25742
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCkq8vdIFkLPZPBiEYSbnsfjjjDvH
+					kceojsq10o2lCkekp9DoUp4y9WtnX7uWDjG/
+					949ZjYTQz+n1x1EaprLr8mHnqe3coIJjoX6h
+					LZKe8ZQw1W7gmSK+4yZN7keUdWUDo9Pyx1UR
+					jqIFMZCQ0w/qomDZ13oP5+62axJLFInSAS/X
+					xpWVwaEfZzrH7PNG28dWVqEmGC9G7ovxUNRl
+					PYnFOoYxVw==
+					) ; key id = 44454
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					Cito1bnWtQ9Vc4fEE+178AUdKemj+Id3iO2n
+					Bh+3scr8eFHPZotT50cDIpiRGSMnqMm5snUy
+					rzvlJgOCSXnkoQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071952 (
+					20091118071952 44454 sub.p25.net.my.
+					Ap8BKls11ODXnGwnd4jyNYaYnr43Chmx2fZC
+					TaxyAI/IGAZFfIVY4x0m0nSTNvZiv3qrvBBp
+					yI1SQbvzxWek2Hj+pITUzGANjbeXrS6Wk9+0
+					WXpoXsORLRtozWNSuI7KSg9QKPYsANrMa49e
+					2H/8lKt9pF7qD4jgbQIBez9/Zn2jaCbjoqxh
+					hegtiT/Qmeh443UbT75yxPyW1dTa6iNOIAut
+					sw== )
+ns1.sub.p25.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					mCgeabW07Em5QH0U1LXcNPslFJPN6e8WY1za
+					FpacgVh9yxRLG43WhCxJe+AO+EsY08TXWPBt
+					fcnStCKQrmg7JA== )
+			3600	NSEC	test.sub.p25.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					evYiTuHvz91HmuzvU4yZLE62IXsWKbzw5Z2G
+					dTjsflXpAWP12XivTX7qxOjBpAIZMdx63hD0
+					vGvYLucupyGR6A== )
+test.sub.p25.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					qszfjx+GIk2m9mZ/Y5wpxAhE+4oWqkUNP/X1
+					sLa2VsHDCqupf4icl+i2oj7xwLXZwDZkDmVD
+					w5FELPURqV8/Tg== )
+			3600	NSEC	sub.p25.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071952 (
+					20091118071952 25742 sub.p25.net.my.
+					GQFf5V3cZ9KKv2UQyrMx8nm7sf1z0Y+mLpai
+					E5KVuS5UfFXPxVFTgpE8o/Q8i2FemN84t0Xk
+					9/f7hX4lY9P9WA== )

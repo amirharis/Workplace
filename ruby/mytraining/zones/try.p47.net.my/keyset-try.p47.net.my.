@@ -1,0 +1,10 @@
+$ORIGIN .
+try.p47.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDxgmGp9XFv0SxPws4LEiXEilf+to
+					fcKDblRKJgkIDyEa9mo4OxfmSyzl29E4Q3ME
+					yOfg0vXKig0ADyynVTnMe3ksWNLRqSP9rnU3
+					u2OqJi6X3DhPsfvNUkak542rTqImNrmP27kJ
+					MR4mOEkaHerFrFgMz8QUGJlJ74O2AbzdC9xt
+					YYOr0heZKgaqZyQGWqc1D7KJ0jJ2i+ss+0i3
+					Y+R+n9MD9Q==
+					) ; key id = 55050

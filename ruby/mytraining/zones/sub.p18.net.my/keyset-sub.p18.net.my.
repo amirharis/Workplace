@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p18.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABC9cJgz6w8uOsehVsDke9V3EB96Mp
+					TMxjE0eFnmpVA3QA+G6j1p8yLnhpP9mv6ulZ
+					s+lsduo1vSI1hiBzBgCgxWgzStnD7+f/ZyTp
+					ogdWko56tyBwrOXKKkLVZXSOcK3pOrZHiydh
+					fl4z0dxLIMfBFvI9McJGAC4gjVYExoUsmic5
+					wlYCv5EzNpGZ1Gj45k+b6rUHSpOlHZjllQ3N
+					Wh1VxTYR5Q==
+					) ; key id = 1953

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:02 2009
+; dnssec_signzone version 9.6.1
+sub.p35.net.my.		3600	IN SOA	ns1.sub.p35.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					GnJy73SV3s8y4sLI4hNCF+CTLxyu7X0fLW8d
+					VUzfV0Hw/OGfjdmc5ni8mlBkBakbfq41H/2t
+					LS6nJYMIONDGbA== )
+			3600	NS	ns1.sub.p35.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					K806BZmBkW5VjNi9OANb0g11a7bAFxaQcWOt
+					jdG8X3E6dwDasKT+y4f/AO9NAMQHOCibDe+H
+					Rcdfjaxe0IUeng== )
+			3600	NSEC	ns1.sub.p35.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					07/1r7lS7lJq5hg6jOq8a1eXbtHQ1sEZ++rL
+					wS1ocyBUXt55GdBBjcWUjYRiT0m9G8+ev0xM
+					/TcpQ2nAZRIdvA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB38B7aFoNkfkhTjxdvJV9RzkMv728
+					2NEokU5bHvMCjk7qM9IbZTiYbKPDW1poK5MO
+					GTE/cZwQdPmrqdSrRkVEeQ==
+					) ; key id = 1367
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABD3uLrtxQ9Mr4vUDdQt+4MNrlqJRA
+					W88Mdu37wWwm/31YApbniCUbiDfJAGNvuhFp
+					p1GvkS25eiteg6v4/skBafUbKRU7NJYUjMWX
+					/R+0iw7QrLPr3HeOxs1REJOkn3aeV/MtJbTf
+					eHDaqLQoUcRXsH36fDh432fhvCaumPvjsy9m
+					cB588iL+TsBLJufPXUC2MNpMLtcEK4jIc/Ae
+					Gx6aXeZWVw==
+					) ; key id = 36765
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					OlBtXTPesD1w3QgJ5cB1S+dpHMIFmdZMhx0g
+					5Fwmbdce9riAuE+p0Vxbah1PoCup/JRmU0HS
+					FDkhdk3wehrbgQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071902 (
+					20091118071902 36765 sub.p35.net.my.
+					DatzUmla8XB0by9BMxUuXTNlzRf/7EFl0hqk
+					mk8HAPYORjyeP9UG7CmIZc2Zq2MhAIE3qa3R
+					2E3czeZY7TJaVaefiq1tXs+fla2Hea5umnop
+					m/lUgwvS6W77lhT8pb8Q1JeKWTMGjvJHQZUt
+					eoEH8bBQ8LhyYhrw+ERXccGOxN06XeHe4dBC
+					LwFpa3EEHXdhZVHVcwMToOLFhmpborBgoU5t
+					YQ== )
+ns1.sub.p35.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					y3EzrxM2NsMdMxuGZE8iNHguyl3L6RGefm03
+					md7K5YgNrdUibWoSMd7DW3ku9yuC8D6CVE3M
+					OYHHjkbMhsvh9w== )
+			3600	NSEC	test.sub.p35.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					lXZstMGX1QHZ/A3Bc6YBhSZGAhRK+46xleq/
+					g/BzRjkyWmJbDqm7JbUahubgitz7RYbuMds4
+					khxLDvyAiH4LtQ== )
+test.sub.p35.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					p+wkyx6WZWFCVpLKqgG58LmZkcN9F52NBMfF
+					x9+Hck/xVPA+YApISxa4r+4ac3YGzdavWWU4
+					EQJ7gbi1DlhPkg== )
+			3600	NSEC	sub.p35.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071902 (
+					20091118071902 1367 sub.p35.net.my.
+					NzaUZ7Hoo9aV8LNCmvtoR15Uk9PTdKfx9Z0G
+					fX+K3O52awSAj5awkTDgB2norf7r/QPWhlRX
+					7EXuC1OXzkYScw== )

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:08 2009
+; dnssec_signzone version 9.6.1
+sub.p17.net.my.		3600	IN SOA	ns1.sub.p17.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					qEXFW8dlorVTa81ijOtjYDZeaH/03QTauGM6
+					87Wjikr/WjS5eMFlRyxtSIOKutEzEdO+2vUp
+					w555uWnJcZuU5A== )
+			3600	NS	ns1.sub.p17.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					hQzzMCLQSI7b0NbAtWlVnVUuQbWsP/OkGKzN
+					MzT068SZtRkrP9VDVMTW4GjSHA+eS9cAyCtw
+					Jic3XHUQyRPvVg== )
+			3600	NSEC	ns1.sub.p17.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					f6cCe7rr/ejbUrxxat5EiMt2aly3Ah6s/cDa
+					gw7eBzDefOW15Mvy0LksaqPQf4QdnHzr8yB8
+					xQ8vdY+kJ6B+0A== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABvDnwfUmBNyiucBjev46s0qzvSaf/
+					O2q4+GbWgIZXVXGJ+KGqZazGxXw332NSsyH2
+					eSeOMXYIE0VOEt3Qliz0mQ==
+					) ; key id = 58622
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABC14veZ2M666JAEsLFnHiYllCX4bY
+					BVncimZ66vS49I46NB+fkMhlzpFJZC5Rg/mr
+					mz6JRwxVHxDS6uMP4N1CJNiP+Jt5rDyWP9Yk
+					Op3CxTdQfTBDpnI4U1TMBoi10vBKeI6KaxVC
+					Bk0vruMfpDX6Zz5+PsSymdKzTOmiLi1ajRSC
+					5XZEuBD3wlOYsg7XBDpf3KRzeb3zpVOu/qwZ
+					gcTiDYCm2w==
+					) ; key id = 59061
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					fCV+Mw3vDdGhzn1Rs1F/E4a8TwwfL0yEK6iK
+					FP3oB/yuFsWYafOzJX+U8AA1KyH5jBiNZ0OH
+					VXdaqMB38PkniQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071908 (
+					20091118071908 59061 sub.p17.net.my.
+					AR5hDroT/xSoJFZGpmzHCwmQZMtAHj1zP7g7
+					tsJnayf8WD+4w3nzkoATvmJVMEuukUmh71aC
+					btrxl71G1vIJznhP19CWQjQ4uD+/wBplGcoi
+					8vftETlIoUbM/e4Bf7SZ72KRsn1fxAyWU+xC
+					K1KIAKrMfBg/55kVFpe0E9mHY5BU0jjPTqfY
+					aN6aSIvIHb1xyvSB3hyUBiQzIHlO/FrjMhSg
+					PA== )
+ns1.sub.p17.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					kFwEsnZSFxvwihlIeDfarz2UDBRI+Q78LNZR
+					adQ08/Span7oOggJvIzW2hXHmvshvqezmalr
+					459sgr+SXRhx1Q== )
+			3600	NSEC	test.sub.p17.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					HMSDxtto9xlj1a6rxliNnrscw674Gc+Msjqz
+					o++mJPrxgEOusG0kBTLFHWl87I9PuX+3+ZJ1
+					1KnAruW5tGX6mw== )
+test.sub.p17.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					Ym6j2qyGzoWYlLsrRNisc2X8PPXplX0tw+SD
+					DATi6EGxvh31WOwvz7ylPzikO3X7rKmKgxe0
+					MBQp9vewEysuZw== )
+			3600	NSEC	sub.p17.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071908 (
+					20091118071908 58622 sub.p17.net.my.
+					Pu61AGjHB5IMw4UBOG/ALFbs1OABGrYMmwiL
+					Ywmaf4fWPRIlRvAVUcnotR2UfLGRUUnx03AN
+					cuq5Li893YhgFQ== )

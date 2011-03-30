@@ -1,0 +1,10 @@
+$ORIGIN .
+p8a.p8.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDtEircIIPtNY7BRnKseAn+NQ4jgr
+					udIF6nzjBIFWc5ZWQp5EthBj39JKL9gRvHxd
+					g/2UV02Q1w+F8+JFKuZkADTwdN6a+CnodoZy
+					M/iHla1xTm5U6cxvJ9wauhXU3jKJ2PXPPeke
+					iMQmAXKOJvAw+Z72zvoaBNhrtLAYKgYL2kkI
+					5jiBM/kGS3kTc8nzGHucH6md8y3HwVtPjiXB
+					Z8USlZRyWw==
+					) ; key id = 58278

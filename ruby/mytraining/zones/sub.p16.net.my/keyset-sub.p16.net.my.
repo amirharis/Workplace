@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p16.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABCyDx1IehtKyUoPqux42TdM5sUt8v
+					qojn9BjYzQS81GeWKbm9JixGcmciQ3Jhirav
+					Wgb7nZhhS39FZ0kTcsL2qqQ4v7hfSzwjKIrS
+					y7xcmPdT6NKjxEyjWAlRGP4RMuwep9wCyfE2
+					9u0vKXw2LDTgnZkyNHImnWFa+p1gJ+CdHwzl
+					SWBKfKz72TEbJa9hZ2C3xa3ed4dTZw5TZxOx
+					6LqJPgJJiQ==
+					) ; key id = 9234

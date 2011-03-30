@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:21:04 2009
+; dnssec_signzone version 9.6.1
+sub.p24.net.my.		3600	IN SOA	ns1.sub.p24.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					XPQxKuEckJ76LuGAuNfGYIj2JhJiz/1ZejEe
+					Etf2XTUKxPYh7aI8tMu9owAgqwsbxRT8p7X7
+					amPYCJQhO9nO+g== )
+			3600	NS	ns1.sub.p24.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					msKyZ6d/lQvODtN8RQRHp/XIvAGQjr7sYeCN
+					tGjxYuQzKLK2lQEABB9NWapy2G9QBSFxARdV
+					mxTVDHcv0EbBNQ== )
+			3600	NSEC	ns1.sub.p24.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					iwexpQxzUJKtCnSjVdHxe+y73Kvnsvevr6lm
+					Cfg3RFKvU38RVTq77B335As06GMGa8YRMZIA
+					0+HFKnEkoSjpsA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABv5w9wYFpkLb0sCghrOU4+YJ4AB6h
+					Uucqw8EnEtYyurg4bV43K3Y+SnbX86tFW+4m
+					HiGxb2PnArmVDZ1C/IjY1w==
+					) ; key id = 32342
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCuIrP0ptHhkpA2r/I2yFZ8rNjkCl
+					0zI3WnTeMVZyvUWuj4ze5pqHCW1Isfv8ODIh
+					T5at5CAQbwb4xQP6H6FdX175ZS93E1FRe0kK
+					gtBDvSrTRglO3hvirYuIOB3urkSTHXJj9/zl
+					j+bsS1g2zaEuS9XqQ6z7T7tNMB8JxG6igzQa
+					6o5z/DqJjuxVLHW16DV9Drog26Jgconw8GwL
+					80oBEMr7qw==
+					) ; key id = 7374
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072104 (
+					20091118072104 7374 sub.p24.net.my.
+					A+DCXGkGIE2eRW89eScAk/JHp0EMo+V/m5Jo
+					0szoxXdXAFnXoA2tqlDZZxqckiNI2IgQCjxs
+					NrCdcasbORaS38doYKkE7sm4J/wpwgRrEc2q
+					T7asCP2uQRy64qz31YOKiuLOVgIe85DSjgwi
+					ijY/nrzljsbI9GqCpl7kKZSgP9IVH89KwlKv
+					0uzvTW5L3Ccr4BnJ7g3RtOn0D+/TIGdd64Du
+					5w== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					vdFAutTR/aZMNs2V+l46Gdt82J3iNS6Tphq+
+					xGYy7TP0JaMxxIAlI+4WnMNkNu8oWI7/VgNo
+					4U7B0DRzwBORYw== )
+ns1.sub.p24.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					D9D53wKJZCfxCseBu04S1Mw7ID2ydb36o1Dd
+					CpFj11ksemYmPQ7dptm2JNb3CXgMsoQkowXh
+					f50OAPs3boflmw== )
+			3600	NSEC	test.sub.p24.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					ZyhL8IvV3ETPqZfPwS0YYhtdkJPdO+Uhky4o
+					TeZrEU8g+z3teFpF9RpaDwen7vGmWB7fYcxJ
+					B/I5i6n9y9n12g== )
+test.sub.p24.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					NdscYnb6r8eoJM42XVjqK01NpFLbr0UcnRES
+					dtdtdAdJrfoS/NMXsvLQuxNUx0APo8kxAv2J
+					LR4Xz+A+CLXc2w== )
+			3600	NSEC	sub.p24.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072104 (
+					20091118072104 32342 sub.p24.net.my.
+					pkcgYjXswokSgnLDdC3dnvc6YYb5qqfeiiwi
+					qskL65Wbiw6hI/lkH9MsQL1QN5BBX1nkCvY0
+					72ydWRvojVgqlg== )

@@ -1,0 +1,10 @@
+$ORIGIN .
+anak.p32.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDOqqPvJTvoNEv5UDBsEJY1GIqhAk
+					UHhYRszsFZjbIbaeV7J+06OgsfY43xbGQw+o
+					allYVUK0F8qNRzUyxSk+Hq/D5ode++XgRCZF
+					PAlciel+Ht/6yL/wVPkBGllkAUgfjUaKp6he
+					ghumen9wUqitiKP+DBGimIBoTgIr4fl+QZNR
+					s1235NAeC5fMJWcmFe/vTN2pihplSH04aCEl
+					KDe1wy7B2w==
+					) ; key id = 4884

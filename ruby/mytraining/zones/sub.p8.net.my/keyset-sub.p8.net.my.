@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p8.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDufjnR+Zz7RrucxT1TFdKvGkPaF/
+					B4+nBibmoBE4XXad2/NK4d5x7Jv9fugRiIqX
+					LtZOEsHR9vDwWOhiCcCvdvbiqEHOPp+Rpftn
+					j6Ktt3exvUZ0AJC48cBv5Uo95jq1W2vonpgc
+					CNlweU1W+LHSaZthXd1gmEUlTUzWVstsNYkz
+					Jfg/it1D1AQIpAwccxEiNPyjwn4y4mgjbpPh
+					2Tx5MqT5kQ==
+					) ; key id = 4425

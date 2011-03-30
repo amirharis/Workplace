@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:48 2009
+; dnssec_signzone version 9.6.1
+son.p6.net.my.		3600	IN SOA	ns1.son.p6.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					a0T1Z/ifEYKOEPDL/l02+fG2urECqRRRu1zE
+					NeHQJh/hlDQtiIiPTQy4cB47pyLfTOUbYiEa
+					MJlfsEaxGky6Fg== )
+			3600	NS	ns1.son.p6.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					3hYjb/eXPujP0+jk4vshtwJVQnC49KtB1P1v
+					2RTPytQ1RtzG9aXa3QAdmqbCvKPkBQv8A2g0
+					AmPqqukzSQVvDw== )
+			3600	NSEC	ns1.son.p6.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					evY3GcNUhONtIIuGdaHkpoCOBOoPDKKhxvGs
+					mKoYcfA5RcqWp/WJQub53QchaLesHQzB2ehi
+					yxD28Varg7NPZQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB45PS1XTqq928sRhkq9C5Q9A/8q4X
+					XSdDfaDk2nW72jdG+L31jsBfboC5gLcqQxYo
+					Njvt/RZ/QJlRI72hdVgUeQ==
+					) ; key id = 5954
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDicC5v4VVjmeDWuH6g0aKqalwG4/
+					5pP9ZUixBCbA3PqrJdxMGNC+rKwYLCU6K2Ib
+					ySnxiaR6L71CHgCJztUAxH+59MCO8+xHvYo/
+					K8Qrrv25Q39L3fF2kMzQuyfrGU7Du+YG1imU
+					0YP+5lm5f+QEMclNr0JQXUAsV1qw3Ubpwvt8
+					flijmHLYJbgLMReOBRUzCahPdi6+JNCyNKMK
+					sHLRFJMf7w==
+					) ; key id = 33210
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					jxH4KPQPHBi98K8fLC2uSA7Iu8GnSxN/gNTb
+					k284EUNcUi3/Xttfa+sDWSnrsnWHUbEiJq25
+					G7nH3K+SB2aFTg== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071948 (
+					20091118071948 33210 son.p6.net.my.
+					CfOmTuAuE9R/xibVSHXt3pscIiczaCmIwfyi
+					uFM07DvgLjN5bUKWXzquJ0Oq3pSiitaVWGxF
+					pozPVS7ux5Tn2lc6j7g0Nx3z1B5BSp2f673P
+					CxT8oE0PWZmm6Hz2LCecEzS1GBmH2bwoMKoR
+					0UOHbb+JMCFH4RfniuUmee94zDhBf6UI/063
+					RGSCEtcWRiqoll+XyoQHqYXUImk9G3WXJnuZ
+					kQ== )
+ns1.son.p6.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					RMCx85BPe8aoeSt0lCZziRndwKWxBWI51O6y
+					o+Gww5/+hI6sUYHYvj51L300Rzdxzo/DXKUO
+					Nw4bEuoj4DaGIw== )
+			3600	NSEC	test.son.p6.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					kE2G6TglBOzCKK5AjA+Csx5yTby+r1tWLxNj
+					UFQHtQ3ol5YclBB1LJN22k7qKwm8lEUFfEOu
+					2WTUCW4cJzTeww== )
+test.son.p6.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					LuoQL7AOJadKQNLMX3tvhwXoZnwmVgi8pYMW
+					L7G2mnzjyknc9lpVg33UVbbSfbKQm07jA58A
+					yYrBR9O37S/H1A== )
+			3600	NSEC	son.p6.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071948 (
+					20091118071948 5954 son.p6.net.my.
+					RWKqeeQ8IEu5RMKj/81kFYShO88u2Ea4+JXF
+					0wxN6bmoySPP6fZzGf5dOSD+sAab5oYxfsn2
+					IwgmpYcrepmllQ== )

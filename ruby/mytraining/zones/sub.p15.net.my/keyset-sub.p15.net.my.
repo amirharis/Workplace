@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p15.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDRYOU3LO66xRFUgXcxrbx6MI9JVk
+					0k5b2fkOTqv4U71UEbMCqb4gPX3XDkdNDpy3
+					h3KuzTwTsHT8kORIiYWnPBOQ1StNQYxwOaqK
+					lu5LEvjf2XGQK1/geSIWAm5rg4fy74N+Xu3d
+					sbIJWcG4M1U4zG4LHtAGl+2W63SH6V2vLk1v
+					dvLmuzf762P7FA8CUyFMUTacvDBkA3GJjNPl
+					zvylNtR40w==
+					) ; key id = 11115

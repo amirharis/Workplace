@@ -1,0 +1,10 @@
+$ORIGIN .
+azmi.p26.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDp0JoVW49jcIbgqwl6btA5P+Cgcp
+					dPGL/GKKOnavq76/SPT7yLD1jRmUY24pueQ2
+					9tkHOzp1nRhUaC1DNgZaYThgLXIfUjHtb8up
+					C+MmMYA9QYgZCrHcVhqF7O9Ua6677YyAyNP/
+					+mJ+T/YQRyoPhbFfEvGPMpzAeJE92XXX9QNW
+					rqaaNGSWHqHZrLwY0tyV6HTu7OjKoZqd3asY
+					r1WyZIjySw==
+					) ; key id = 60753

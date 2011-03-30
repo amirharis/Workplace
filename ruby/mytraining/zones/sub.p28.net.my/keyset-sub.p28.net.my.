@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p28.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDNMPjXvBGDj/Gx8/NSBNju5sRMVL
+					cD6Y9UHrpb79ccdFuxzbisvgDcQz4+mLO6zn
+					NlTYNGjyM3CFp+ncAX6V7qvY7kvs4PeQTs8s
+					bo8BT4BwWw3K9csM3A6AYyihd0DWyQ3h3pn0
+					+/kFQozwB3tDAVPSKxMCvTA1lY/Dk+WH9NhH
+					kLyaDEUzLH26vaKkCqk9wSG/5urRf0Ba/ONw
+					5xaTbY2TKw==
+					) ; key id = 25026

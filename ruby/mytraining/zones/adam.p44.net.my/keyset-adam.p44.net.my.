@@ -1,0 +1,10 @@
+$ORIGIN .
+adam.p44.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDBuPv0btnOELMjcRF0uzpByQPfY1
+					4KvcQpwcY8rEReJeZZIkZZcqnQlZvITSJYO+
+					8Ig9M5GS3skAFo/mI6iCT3AAl8C/FXjSh/YG
+					CgP6f6UCCD2Un5Yv01fAck7Zccoz6eP3X+t9
+					2/uoduwW1wtlniJHo15JnTv6Ph0FtUorJcXY
+					2Gy/SSl77T7HhOWIRBoOgGGES5T2gC4pk2V0
+					0n8qN35nJQ==
+					) ; key id = 45819

@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p38.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDRchBZBXvmq6+neuemkOAtn6qfO/
+					0+plOk74fmfFBJD+032W62KvZCPSkp6p8Ei3
+					a2JFjr8R3iQUG9YCgb/5ZSgQz3WXqdm+pqB8
+					aC/nWXpTQ2o8owVl0PxNCBihvN1zbcytdKNB
+					juXI2wjln1qbN0DwJ8o+BGGDUU2kdWSYOht9
+					yuI8CnGvZldAO6lqlIu9R30uZHoffFVhxP6E
+					uaQzH8W2ow==
+					) ; key id = 40170

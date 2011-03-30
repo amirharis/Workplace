@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p19.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABC/WkQDn7NhHHX2MxtmHsqWj0B1JU
+					hzVQPn/St+U2AoRTbX1Z1/eus82QjwnlWzKU
+					EIUDY/e1wIsA+q11G5HpZKzmh8WvudpCL2sD
+					IwQaqrZGwXgoo1FwJd8uAHpy/40uueayVuc5
+					gcU8qf5Lzl+HzGNBetOYSKseN/YJiHijQb7m
+					8jPpy3RkOU1qaVr5EkXrzaGtKG38Suf/zUZk
+					7ahbKEfYqQ==
+					) ; key id = 65364

@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p10.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDRRta3FUwGQxlwjcNCfgBK44xND4
+					yHXNBk4EpRz1fVTZJZZKiWLQfq9AGZY/Abpf
+					J9JoSKvxzU0BMXNeGmocyBY3EvYjwdp4ieG7
+					H8eetz5GiOXWJmmk+v3PSqBp3wIg2PUdd0KQ
+					FrpYU8YVxQQumRUHiaajoct4tr+d1o/KmhOi
+					xIWb0mHCa+22WNzuu768a8qdXhkATPMSz50K
+					yaRDid9oBQ==
+					) ; key id = 4764

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:24 2009
+; dnssec_signzone version 9.6.1
+fazli.p1.net.my.	3600	IN SOA	ns1.fazli.p1.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					f2z+dea0azh893szFcj7W4Jcr8c15ZRGSOh3
+					JNHPvYmRP/HsevJRuDXeN892oIpdYprXKEKx
+					KqLzFu/mzonC2w== )
+			3600	NS	ns1.fazli.p1.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					C8p+aMNaljQ0663/CzaUmBDP26GzDC9+mGX8
+					a6hcJIP3OwK49qd6mzxNjQGsFaEhAFqsl1Bv
+					1MywfylIpvjXSQ== )
+			3600	NSEC	ns1.fazli.p1.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					Du/Xo87ZTrVUt3SjNKEPFoGsYdX3OaiS7njO
+					l9EsnaK2yes6IrUY95Cs72cmtQ5NDSNGWrq8
+					2Hz9VfpTa0PD2g== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABygqkqQhWEVJ4cQgynHijIIwqrMxI
+					LFX61o5Kfm4xkb4qwXgeTV2t84n1OKeXvuEO
+					KDs3pxrzjrVhZ6m2ypZxVQ==
+					) ; key id = 29675
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDw6LVS80LlODcvOD9/otu2gAtDw9
+					obmNgwk0HPhizAgOap4rn6p3YWzKDKSlesWZ
+					s/QBLN4aO07pKtgR5pRt5ru9i6p3GxF/8LZi
+					Ff08mPdqmU0hTf8DkhstkAPxEI2XZ4esNmWB
+					FPx3R2QU2hGEzQAmbs0M1wddXb/Y2MGdmSUd
+					GPbjav4qzJ0DgBS463BxkTh9piJD8/l8tDxA
+					Oy+R0G+svw==
+					) ; key id = 19488
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071824 (
+					20091118071824 19488 fazli.p1.net.my.
+					ASKbMECnag8fNeLcobbogNuitLTGIt7XuUQB
+					90SSFVAh6wxvgzWSSeYZXZaIcwd/9AQoKhqD
+					W0beHGePT5PHhuNVMqrsr6jQ251s9AD6nMsR
+					c34uDBpWWVWTGSldL/0fc1zfkQr2w8sBDkfm
+					NDlbYFtKCvbKgh7KIgyaudL4v0gwsvkTC3BZ
+					x8f/aaTZHpRcv44xfYofFn1a0e4psQowdf9P
+					Qw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					b7Wqo4ZC549UbMjiRR11ZEF+tj/5IOq3Q0Zv
+					keHQvsGJTjzHonGW6OtGnk3ROmF3tIbqRK/U
+					xWiGUPppy4wzAw== )
+ns1.fazli.p1.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					HAUTWkCr8Wh/X9Y9e94zTbWyqDqcTdTAiHoL
+					J/ML3oTjFWtZJLXtC/CmTknPmovl44haksJZ
+					tS+a1ffzXi/cDg== )
+			3600	NSEC	test.fazli.p1.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					aoF9w+mMuGx3XTLMXIRImWqWTnq8+oP9zpqZ
+					wMgJHojHf2hE/PSPovVpgP40KqDLz1M/xzbS
+					Az8cZC7Y32BwoA== )
+test.fazli.p1.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					OSVzcapecEl/8N+qR7QW0aKL3PdLl2FFtf2s
+					8ocQ5biSE1XFjNWBmuES2fQWKOn8qrRJ3VQ2
+					3xXME7DKgM2atw== )
+			3600	NSEC	fazli.p1.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071824 (
+					20091118071824 29675 fazli.p1.net.my.
+					fiKEGqjwTP5E10ccG2tgIBd4wi+DtKJyH5ra
+					mPz06tHrfxwqETrToM9CstEBABzXpgYeJi54
+					OfFDB7bOuhEI4w== )

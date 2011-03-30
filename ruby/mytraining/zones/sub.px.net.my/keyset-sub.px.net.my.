@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.px.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABCs5OkG0+lw+dZf316IUqUkh4fYtR
+					zUhvs6SjIFEeTWid6npCYiG4SqS6DKV5aa3B
+					j4qyhILNDkyioHTnaZ9LULyDtQgHFUX8wapP
+					L03VOKEyJasU2fzCRMgch2ZO0qMrNyf2wl6n
+					yYIPUCJMdAVtpq4znYD2B8suj4IED3aGc2LY
+					biI8V+/GLKM2mZ6mEJsyISWWWph9iSGc9Pl+
+					n0EouTxwXQ==
+					) ; key id = 33219

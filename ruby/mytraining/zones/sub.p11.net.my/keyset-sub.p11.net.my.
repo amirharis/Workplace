@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p11.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABC4NHeFI8cKqdjISRoPr9w8WWT4wf
+					Ndw0SPMZiul6wVAD0Z3zk8L3h7ouNzFwCumF
+					WOmvj3QObdXLa/0YLZra8MftNxiN2GurbGuK
+					J6dWOs9vk6lxhAsZN5yP36WJQF7lwmA3SZmG
+					v33O9TTU829lp+/R3yCLIgXulzilWpzb1ff5
+					8ofFeZbAz4cyNtRt9deTnSQEFGTOvYhMopBS
+					HYSYM5HQQQ==
+					) ; key id = 50340

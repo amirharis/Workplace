@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:49 2009
+; dnssec_signzone version 9.6.1
+sub.p38.net.my.		3600	IN SOA	ns1.sub.p38.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					Swg1QQylrVtgnJ0pHWp1RxK5zsBd9VwyHCQC
+					YNX7CHagdRoeTD2b3ZpkzUCv8qiaToySUPO1
+					ImF+I3jR2CIfsg== )
+			3600	NS	ns1.sub.p38.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					Ur4SHWXpJUhl1ayORjooxylD7XIB0/aT+h7W
+					Hi9aFRRdhbmRvr+NSrpNbVUocEVh81d9X6aP
+					jpzwRD5GcuUkDA== )
+			3600	NSEC	ns1.sub.p38.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					QCHVjOcKZtVgAOPg6Fr0F5YTX9taqC3svP6j
+					yqdYnZHRCAXqTZphK+N1HGcteqp5ryNf/QhM
+					DbX/tbECWYtSdA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABrV47QupCOV7b5SqeWDib+e2kWLId
+					gz8O2kIEv1yxVk0ZTnxni56tZmYzawikakXl
+					8ot1uYjtD+r2IAL1Xu9CDQ==
+					) ; key id = 27230
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDRchBZBXvmq6+neuemkOAtn6qfO/
+					0+plOk74fmfFBJD+032W62KvZCPSkp6p8Ei3
+					a2JFjr8R3iQUG9YCgb/5ZSgQz3WXqdm+pqB8
+					aC/nWXpTQ2o8owVl0PxNCBihvN1zbcytdKNB
+					juXI2wjln1qbN0DwJ8o+BGGDUU2kdWSYOht9
+					yuI8CnGvZldAO6lqlIu9R30uZHoffFVhxP6E
+					uaQzH8W2ow==
+					) ; key id = 40170
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					OMDljFMQIdUZyKz/rPhfPhE/zDyAPUVObX/W
+					URPjl9Z9ycLzYhXmLwXk/jyY0EGgytGHk5Sj
+					c/JQRwMFM/NOLg== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071849 (
+					20091118071849 40170 sub.p38.net.my.
+					CGtAa4SSTVIHJuOhUhaTGSsdrY2spFsFyuQH
+					euLoPscEjJCGHMCuYhmV36Nz9QAonMhimYiY
+					CAkclk5RtoYWIUw3gRJFQTZLa15af6mRxTd1
+					PzN06iSo5wTQsRV+rGQ6lELR4jHFwS/8yo9G
+					IyfsUnuDABkpa8jQcwSvzt7t9EWhSCXMAumS
+					lO0wd4VD920kF3ykJPE/sF50yLHggsdrSUeb
+					aw== )
+ns1.sub.p38.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					eXjPKCHSd6gZrjHEqLlyv0qtWaNCE4O6fIQU
+					jPyBQxbkUn5V27fNd3uchiF9AxqBpxOHy7vY
+					zmg6fgq2HexvEw== )
+			3600	NSEC	test.sub.p38.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					HDt5XM8iwT/3tZp/hoODqNMGuGr1GXuY/Eso
+					2zYYSRtVo6DC9b+Mb4TsUMKmpt6SMOlejqSe
+					5v+60VJS4wzrcQ== )
+test.sub.p38.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					GMZSZaBQy5TACHOlXAaKonN4xnaBla7a2I6L
+					373O0DrRW2aTnP4dyVyi353LexCESkbxU5HB
+					JZ+bEZSbbbZZvA== )
+			3600	NSEC	sub.p38.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071849 (
+					20091118071849 27230 sub.p38.net.my.
+					qjIqcXsP93Qm7uiFfx88GQAcVI9zegL9GCvr
+					VNBBFNKgV8UX/94XXysE1VlvvYjZhpZJ1cTC
+					WY1dFcYuYM7OQg== )

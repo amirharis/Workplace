@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:09 2009
+; dnssec_signzone version 9.6.1
+azmi.p26.net.my.	3600	IN SOA	ns1.azmi.p26.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					ABdUbyT5sCa5wtYmka2YAq+oKjRt6KWstoAA
+					UUiyKMl8oi2CozM8UPlWnVioEqQ6/C6AM611
+					PEViXdLRcpy5Pw== )
+			3600	NS	ns1.azmi.p26.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					E1CcO2axMQitFTRocXgjvrA93kHgtVUxxrB7
+					vXO9HBcINGJlWxm0OEASQ7joVrLubOW7/bej
+					HKPfm//qJ2g51w== )
+			3600	NSEC	ns1.azmi.p26.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					tDPapip0gUWwDN/imDP+LxfqdJGw907Spyuw
+					fuUdqwi9tw9m5KMn+1TbOlXewqmrDFpieI49
+					GaLS9wubth51Cw== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB5dIRfdUP2b9FBn8Cnq4tV5AI7u4K
+					NBCkOnGD9t9sjY+WbTk0REDNnhEle5jDWinp
+					jJn3CqiuflXIBHd0FxiscQ==
+					) ; key id = 3479
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDp0JoVW49jcIbgqwl6btA5P+Cgcp
+					dPGL/GKKOnavq76/SPT7yLD1jRmUY24pueQ2
+					9tkHOzp1nRhUaC1DNgZaYThgLXIfUjHtb8up
+					C+MmMYA9QYgZCrHcVhqF7O9Ua6677YyAyNP/
+					+mJ+T/YQRyoPhbFfEvGPMpzAeJE92XXX9QNW
+					rqaaNGSWHqHZrLwY0tyV6HTu7OjKoZqd3asY
+					r1WyZIjySw==
+					) ; key id = 60753
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					NDPVHGIpEoTkThu0iRW5eApkPsVz5e1Pouqs
+					CFyXhGC9n+vooCTH24lJ698r4CmH4jXqubdF
+					8wM3ddwZuPB2qQ== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071909 (
+					20091118071909 60753 azmi.p26.net.my.
+					Bk4O0nA21NTGf2ioyICMzckegnxUEd+tyIuM
+					D0Gs0AvDO6jeP9r2kl6JtNMOu8CrVokaEou5
+					EIOH+Z1ToBddei5Fo8UCCbe+lJHEdde3WHZX
+					3BAAAi4DjOSWlX0He+3EbOtzVMHLBN9iguJw
+					U8q2+VyGQn71Pk4ricxwfImtCBzXKKOgF6LA
+					6hDCAnBWVrcXKs6npDoB2gbY29kDWq6SLrT0
+					GA== )
+ns1.azmi.p26.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					qRer1y5HQvJT5Bm3zxa4515vZeFkmi6vD1tx
+					nYPrmD0G2P6sBkA2kFtDQVcblyCx1lQ9dMc3
+					jlyo6+RoqtFwqA== )
+			3600	NSEC	test.azmi.p26.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					KHD+gT5MF5+dDh7WM3yW2Fjrmmtfjdrw+r/5
+					Xk1e+HcBIlDtTcSfHCUlQfTUnVqEfScfW7UD
+					8eG6uxiLAWJktw== )
+test.azmi.p26.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					OXeFX1EYbjN4x/9fvP6qCWfjTVJYQXnNrdul
+					uWTAiFIvCuunl+3Uqd4Df/RTrimxeBFHxD6p
+					uBVDGAuRFzVvfw== )
+			3600	NSEC	azmi.p26.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071909 (
+					20091118071909 3479 azmi.p26.net.my.
+					fxfBdjzDI+4aUZ7xcFm6vptR9usH2l9cwaHp
+					ktQdAC/eoaZPZMr//qXdksQr736Xk6ZLcnQU
+					7TG/mW+weTdSTg== )

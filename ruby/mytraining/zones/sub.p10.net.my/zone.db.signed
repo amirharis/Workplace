@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:31 2009
+; dnssec_signzone version 9.6.1
+sub.p10.net.my.		3600	IN SOA	ns1.sub.p10.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					i5QGtvANqFW/wCKONf3FFDLz7DIgH90eu8Gx
+					AVUAWlLRz2fk6sEq3FFk+iweHkYWmEBPJ2h1
+					tAIh355ZH0ZCVg== )
+			3600	NS	ns1.sub.p10.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					18j3rMg2l02wcb0lRuONGjVfrw1UsZvytOG3
+					6PcY6qw1+jOe8wFus0HfKPsjhzVg7vOpUDBv
+					MWeqP6L1rn/S5g== )
+			3600	NSEC	ns1.sub.p10.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					2F1tMXW02AYiA4Cw88CDuAdUiEkSR+if2wbO
+					53tRdnh4SgLJ+CSCrNPlvopXH07nwmmngOBY
+					zc8G61fGjnlamw== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB2WBS2FQ9cqsj8ewKVKxABiRPnGP4
+					WNJ1zk2C0cdlMNt4KM32+aXvQjxtc7TLl46b
+					Lj6dfrm+Z8yewFHs6pqEyw==
+					) ; key id = 64625
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDRRta3FUwGQxlwjcNCfgBK44xND4
+					yHXNBk4EpRz1fVTZJZZKiWLQfq9AGZY/Abpf
+					J9JoSKvxzU0BMXNeGmocyBY3EvYjwdp4ieG7
+					H8eetz5GiOXWJmmk+v3PSqBp3wIg2PUdd0KQ
+					FrpYU8YVxQQumRUHiaajoct4tr+d1o/KmhOi
+					xIWb0mHCa+22WNzuu768a8qdXhkATPMSz50K
+					yaRDid9oBQ==
+					) ; key id = 4764
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071831 (
+					20091118071831 4764 sub.p10.net.my.
+					BXVrHdNnROUdJ8R8hEiyBYy3x/vmAsBWX2IY
+					66fe13pomDMaI4vzsHoRT+jZ9WiXOmgMDbmB
+					7bLes6/XUEmmqzXIUwapuCEUBnDqeZ8I1ejf
+					CeHj3K/DX6LgMdjzHJtP4ukYv3cm4sJA/NsK
+					n0LWlAYGWBa23N4o+7lIjrwfJmyPpCiBJie3
+					hLx1/R96ztStUyNczBjjE2hsNyXV3yxqIIPo
+					/A== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					zndUfRRwtFr/dKgjqD4/n3eJJm7VW5tK7/px
+					8CslssenlRt6kOsfgccHs4lawCS+Y/MRwDHM
+					EZOtex5l2BGYBw== )
+ns1.sub.p10.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					tcecp+IMLoGPvhVeYBqMD/MP0GiwsLUmGfBn
+					qOPeppUFuXkmaf7uySM7sz4ZJUDucD97f1tj
+					2foeSrtQASI/jA== )
+			3600	NSEC	test.sub.p10.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					hQyoyiNaMC4vepaiYL6yqRolmQCKSuTZn8y1
+					AwkI+JvdbKlz40On5lzqVgaEuoDZ/U51xTHX
+					TcnQ2epn6y63jA== )
+test.sub.p10.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					L0dP/Jae09z3Pi4IO0LuN7m52gwhDzOx4vgm
+					fTaKRHOTBrMmMytB4cwHvqi7GhwiUcEORBys
+					JAS3JvDSPVhD9g== )
+			3600	NSEC	sub.p10.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071831 (
+					20091118071831 64625 sub.p10.net.my.
+					XuMtzWzPd6ByALxEFp/8xYf+2U0OCBw7bQd/
+					8KmijB7vVc64ATCUKyBZ08j6wLCXBDLMK/8i
+					XLVVTYy1OduiKg== )

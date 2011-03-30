@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:21 2009
+; dnssec_signzone version 9.6.1
+anaktiri.p5.net.my.	3600	IN SOA	ns1.anaktiri.p5.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					RaCPFha1cQTfM7uIYt2yYHYCmDorsGND0Urk
+					SO+hYnjWWpf7qBdC5HNGRYTc7wKGVZhcV7fq
+					tBPZVn75IQKMhA== )
+			3600	NS	ns1.anaktiri.p5.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					BE4q4wofJhVt5n9G4tbrmsxk+v+DJXNir9aD
+					vC3n62+wFxs1pDB3HrbFjdwDfZwGlNmBq1ww
+					CuR5l8niKjuvTg== )
+			3600	NSEC	ns1.anaktiri.p5.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					RN3yM4XH4yXOJpA8vFhTf1Vjcg22YdcEM2Qs
+					qbzJkG/4er5M8sBwPtsFimzclWZsHPwMCD0y
+					kxPYtRXzVrW/JQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABxiuUZA93I3jHRPfMxtLSI2qc27AB
+					n8r3v4iYDoC0990Dohz1KwS/VMLlm6OrkTVq
+					PsozB88V7laqkNwlggPeqQ==
+					) ; key id = 12980
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDaLYpBhvCDKyFdjrPPDh+wkDf7vn
+					aTltMcz8jMP2IQBVQpPSGdJRla7E9s3m52Dg
+					MdGWKWeYRPkt0jjALplhNn/IX2Eww/IvgAe6
+					WLtDHssGqb/KOlQQX9eBNRGG9vYgGIiAR9Ie
+					6v1rVmO6R1fYHhsCvIMlj66fSLBfIdaTCxmR
+					WWgAIQInEtv84P9835AXIog1KTDaktjGWA7F
+					9keBpcH6wQ==
+					) ; key id = 17754
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					B5zgh87v+hR1JmNDfQUfGQaGqdyvDQIp/g6K
+					TFva2LZ4pgj+6sjFwiODn8nNWu3/berbl4Yq
+					CDq3mi0UHGH+kA== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071921 (
+					20091118071921 17754 anaktiri.p5.net.my.
+					CPNWtHzVlRQtO1ZJSGXNHyUwycuK2oR6nPF6
+					h0ul7hmnvanSpCa1iIKtFPZbrAoh+Xk/MTZh
+					m0p9OOP/mqkxJo3NPZXAFRsIarJUo9LZbtPq
+					wQlg23jBHDq/f0ewPE6AkdiOmM1wCnz3b7NY
+					+MdK+8cE6Nb5QS8GuQ8X0fN1urL/44OPFFSG
+					TO7/cUZAF1Hg4ZF4hGkbwJMBn5ahZmqzoKgp
+					Tw== )
+ns1.anaktiri.p5.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					XjnZYPUtruuAZpTQMqlAGVqYSHMlm1BYnK06
+					8hhrfX2N/6cM9x3BG3TT/TRk+pVlUl1AI/hL
+					7FJSS0fCM9cB8w== )
+			3600	NSEC	test.anaktiri.p5.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					QIMtBqa9EnNvPcxIvQQXf2EkpK2lxOkLK4Zl
+					jWcvtAB2g3FrJzLgWiojBmWdVNBNiWg6oeLl
+					0j7mSIbokjvtbA== )
+test.anaktiri.p5.net.my. 3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					gAa/D6Mmk5M7vEd2EOL8X4ZS0xVfqkjzsCPY
+					BrufFZSnd6apmn1gUMWeT9qNDXegLWx5zNwG
+					0i0ac/TULrD0Gg== )
+			3600	NSEC	anaktiri.p5.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071921 (
+					20091118071921 12980 anaktiri.p5.net.my.
+					f3kn6EniXtaAMt5pmMVAyw58Dpmqsh+gO50P
+					z/mkf2mjhzaLampalzQESslrPymoSZDPsfPP
+					GR7UQuCWpV9Z8g== )

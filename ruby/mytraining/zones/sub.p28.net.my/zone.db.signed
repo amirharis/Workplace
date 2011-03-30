@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:17:25 2009
+; dnssec_signzone version 9.6.1
+sub.p28.net.my.		3600	IN SOA	ns1.sub.p28.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					tjX2+TVq7rXg96bwKcwxwAtx4RHcb61gypCl
+					sTN47smSm7fcBVWx9NqR8t0Pwflg6F38vnSE
+					1EBD6YOQ2KYjfA== )
+			3600	NS	ns1.sub.p28.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					lp0Rt6MdTID9ElLFlAEOTmG2d5V8Xp7t2uQe
+					Wp2AcIJ9VbJi7uXdHukLiHYJBJIjVsaw0dVZ
+					pLb4HHBu9Liiyw== )
+			3600	NSEC	ns1.sub.p28.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					Hqspk7IUUcgmKVYj1dmC4Ov5bNEYoPh836ZO
+					rraQT6uravkCQYniD3/ZbrN1tte2rAw/RCgZ
+					sHfaBnIT/eEd7g== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAAB5Fk8UDvwKwIaf4Kpr96RI4JeGIA8
+					Q9D824crvbpyXE//ItFLIF2JDDZLVQPgKsFf
+					4lzHTEY3tIv4e7ADC1vUGw==
+					) ; key id = 2057
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDNMPjXvBGDj/Gx8/NSBNju5sRMVL
+					cD6Y9UHrpb79ccdFuxzbisvgDcQz4+mLO6zn
+					NlTYNGjyM3CFp+ncAX6V7qvY7kvs4PeQTs8s
+					bo8BT4BwWw3K9csM3A6AYyihd0DWyQ3h3pn0
+					+/kFQozwB3tDAVPSKxMCvTA1lY/Dk+WH9NhH
+					kLyaDEUzLH26vaKkCqk9wSG/5urRf0Ba/ONw
+					5xaTbY2TKw==
+					) ; key id = 25026
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					zCsLEEPnOflOGWvlVVajxTteJxPmo3XQcFeX
+					44PirqvwMguGBbXhVgkp7SVqZ1mafc/jLNuV
+					5burDsv4tT/T2w== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071725 (
+					20091118071725 25026 sub.p28.net.my.
+					DAd04FgG4KkgV8cb4/wyLNerzKrcMSf3HOL2
+					VHWZJZNNQy3yDWii42biWJkr/EkY0e4YQEzJ
+					YDvUXx/86Ecxr7LlTm3X0qf+p3+XZfgaPX0u
+					9NPUEsIOyAp2LPWlKql2QKAygbTke2S7Uavx
+					XQvVRddwjivEvdNRHdLXN9Pyudm7orWJFxYj
+					36Me7CaCqqU1+VA8n8xnoI296jP4OGmoF3ns
+					rA== )
+ns1.sub.p28.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					L8gUpnZZ3NhoRYIT4r5BnLpJ6DWcts546H1h
+					uk64Dwo/bVgIJechPKqOaFs7UZUYvcNlYzEq
+					VJbRYYQsprHzjw== )
+			3600	NSEC	test.sub.p28.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					G7/QqihgF6oIAyKd+KJlJzAsG4FZggUv1lzh
+					7szLo0IN9MDDpExTDZJ2Uhkb4xVcxXoTXwk0
+					K3Z6KZ2hB7EAzg== )
+test.sub.p28.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					KgpZoBx369WwaDevB5f3QSIn1ra1bWMQOccF
+					g3aXj0xw+itxrgGHGq6ulnCXcsrmGDoweujb
+					MpIHMYthX8/MyQ== )
+			3600	NSEC	sub.p28.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071725 (
+					20091118071725 2057 sub.p28.net.my.
+					nKDrQ7Jxx77GNLr8UAiNJyYxhs3sOvDJDcc+
+					lC+7IKbqJ4QmWeEj98nvfx0nRTef7HBQsLaa
+					RUeGjDgswIhxyQ== )

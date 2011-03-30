@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p17.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABC14veZ2M666JAEsLFnHiYllCX4bY
+					BVncimZ66vS49I46NB+fkMhlzpFJZC5Rg/mr
+					mz6JRwxVHxDS6uMP4N1CJNiP+Jt5rDyWP9Yk
+					Op3CxTdQfTBDpnI4U1TMBoi10vBKeI6KaxVC
+					Bk0vruMfpDX6Zz5+PsSymdKzTOmiLi1ajRSC
+					5XZEuBD3wlOYsg7XBDpf3KRzeb3zpVOu/qwZ
+					gcTiDYCm2w==
+					) ; key id = 59061

@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:34 2009
+; dnssec_signzone version 9.6.1
+sub.p16.net.my.		3600	IN SOA	ns1.sub.p16.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					kWBi2jTTbidPazjTlAYf7zthV1DqRB/GdKfI
+					7rPvUxWVKw+eMJyo+9a+ajJY50XSKy4R6UX8
+					Au1F+QKjryQCiw== )
+			3600	NS	ns1.sub.p16.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					Rcs8ipovOuibr44+RS9V4Tvxx7/5NkYidVuT
+					8nfJ5G/auOgcsMSfSA78SVIeDfjL6qSOLpO0
+					9per8NRvmaJH2w== )
+			3600	NSEC	ns1.sub.p16.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					TcO5r11kMn0kciVBuL7FkgQXtGjiOXkWTSH5
+					VJGlmEuhVPFubwfHMbhU+mSWlmkX1ANbyNBl
+					Je09f18IVl/fGA== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABuIdh4G8Lfmhzpv9Ly19pBwKiYAD+
+					f/dCr1crrtG/ZOTpXBe9DidAj03sg4ULLefv
+					24uxrQ49iQ4Ofy5ClVr65w==
+					) ; key id = 10292
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABCyDx1IehtKyUoPqux42TdM5sUt8v
+					qojn9BjYzQS81GeWKbm9JixGcmciQ3Jhirav
+					Wgb7nZhhS39FZ0kTcsL2qqQ4v7hfSzwjKIrS
+					y7xcmPdT6NKjxEyjWAlRGP4RMuwep9wCyfE2
+					9u0vKXw2LDTgnZkyNHImnWFa+p1gJ+CdHwzl
+					SWBKfKz72TEbJa9hZ2C3xa3ed4dTZw5TZxOx
+					6LqJPgJJiQ==
+					) ; key id = 9234
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071834 (
+					20091118071834 9234 sub.p16.net.my.
+					B6mAg2Gv6lSWAYL6on8KwWrAeVI1fna5a38Q
+					aSmgY24QWL1N/jYahywbtYrtfw/Fqygvnb7w
+					4dYX9Myh0B6UPG9SgyxNJMBdCj4JRN27dOM7
+					NsrEHpMi5ut+VpY1lq1N4cWmzTbLDhvscXw8
+					pZRMSAZVaxDh/70PrmQkHvgVd3avFlOxlJfS
+					TVnV8nBoYq+ZPn8H7N1pbh50qUZG7/skrj81
+					hA== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					skeJG/24BuPMXoEUPjwnZtDQMSHkpnWylQaz
+					xwjBGVkavrRGOrveuW5tKem/9pnLj+KZSB7s
+					lJDxUUR9R65gYQ== )
+ns1.sub.p16.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					fPUzGZkyPHhW6X0aS4uE3p0Z5OGzt+1wiZTu
+					enynMZHCMnAVse78nLbf6Sds7Evqz38s3LVh
+					hBOCKtcXWM5+OA== )
+			3600	NSEC	test.sub.p16.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					qoAPOzt0SsEjdk9RzEGfvW2KBhbvXcLNreyC
+					o6DWBUF04bE+BPEd9MFGyfw9GXsQ2YAawhC+
+					tDD0sbeNyWMSCQ== )
+test.sub.p16.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					B+Q5bRD2m8+6O6xWGWXfpQggThylDaul2wdO
+					Cued3M+HncVHXWqeD4ngxZnpMNjrV9UyS4fO
+					xJderhjqH0As2A== )
+			3600	NSEC	sub.p16.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071834 (
+					20091118071834 10292 sub.p16.net.my.
+					ljaA6zuX8yvgQrhkVYf1vlg1KdKCzgsqEN8D
+					9UInRrjJdNb0Td/FR5Guye9mb2VlReqe4LqM
+					FKqm7ZQNZPpxzQ== )

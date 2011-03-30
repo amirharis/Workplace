@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p9.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDOXxIPg9CTocDtXGS31j0rPxNczy
+					1lCei9r6TXa3mccBioInAOzXE9x1ld7qjW0R
+					QWuiccjqSW2l/OAqjSf76yxtwcPGxUd5McBi
+					k0otKpLL96QcJ/8HHiHoRhX5cJ6q06QAqc+g
+					IoyspMnfUXZEycVwBRW2S0i1Em1cstDYQrmW
+					FkXZx/l1xsogGbxFb4qcSFDqJ4m7YYyaLCO0
+					plL6uWlQ5Q==
+					) ; key id = 62838

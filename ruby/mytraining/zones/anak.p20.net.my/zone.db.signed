@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:05 2009
+; dnssec_signzone version 9.6.1
+anak.p20.net.my.	3600	IN SOA	ns1.anak.p20.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					rQOdbjtJb2mqsA4e/yg6ICsiLBjBflvnB9/x
+					kTcqu4c3a/ZtYlqesftrDmhcF7VR25L55w0J
+					oV0mMdRSDuu2+Q== )
+			3600	NS	ns1.anak.p20.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					GccoL0FNz8kPaf+qU0DlsK/MDzJoAd9VaDPL
+					KQr3HI7W6Sbt9ZaMw+kxg4mPBXE0qzqDgC90
+					er+P212kwXxn8g== )
+			3600	NSEC	ns1.anak.p20.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					bSYmcfmKroIlQ+Ld7b8TtvwUueiM5vJcQfg/
+					gTxa66vtXIiWYHPSlsQng3Uhdonn/z/rzWPd
+					dOilJ2GCzOY1hQ== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABrlgS9zHgCIncPzAa/TzAetIWb6xy
+					zBBZLonblgidikJEa1COhy7J4ZDSR40NI7HP
+					jfY8aDloKC1beLgEan0KAQ==
+					) ; key id = 25094
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABC3epleYkClIOVu/bgV1b7Qq7kdtU
+					Qyc/6bRfig7BvN0K447Po2X/1vmXI4C+Sdi+
+					EZRqCIq4geeT5q1PfHsjHMeMySbx3LpCj9kr
+					i6Nqx2fT2KZ76YUjDfUaSD+/A4fgZZOQOgUD
+					hjl3enYGGQU/wo7KblakbaVquYxZ8A4ADnPH
+					nlhW9v1UXmSelshCJmtuoPV/L7LPv/UtoMMg
+					x09GRBgKhQ==
+					) ; key id = 29
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071905 (
+					20091118071905 29 anak.p20.net.my.
+					AGrZ1598Xsl2AamyNgq0ETHnCnIKpJNHY28Q
+					k7PZtqF/3pct0PxFLGPke2k6j0oePlRYxR2/
+					MDTEwPtY9DWwtIrG0PinbNPn3n9SrTx1x9yG
+					UIVADLqhJ8O9ME2h9pq3V5MYI9W/ypEO3d4G
+					CUv+EcrPbgK3zIJizn+AjfwOKGTqkGYGcB++
+					o+0y3S+fE6q11EZSXn8S94tWo9N2OS6TRUHP
+					fw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					n8OHCFXQUzllHeA12Esze8SqKdl+myV057nv
+					aBH7cLqBgX0X9rxcLLwcYVhQSaT6UBE8iPwr
+					D/xH4mlAVgHDgw== )
+ns1.anak.p20.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					V5Ar9nHyl6oFFFgB5S0q+mrFW18WG4pcRC+A
+					9jy1XPJQVT0MT0YOy7g+HR0bkf94nsveVpfr
+					V1ht19iL9mrgWw== )
+			3600	NSEC	test.anak.p20.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					nLoLn/3B9mytwJuBN0zLJiMjVkGZ78fttPpx
+					wJsqwKDsyeHgVmaW2B3Lvz8sdpKywcbJDpx7
+					vemtiNArGvEbMg== )
+test.anak.p20.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					Pch7HFYpJJTXJiDSZNPTI02zUOgmW00l7Mdq
+					AdZd2OIgOwCCbJ45OCFK02YkOQz7IdBrkJOH
+					5BYVaYSYzRTm0g== )
+			3600	NSEC	anak.p20.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071905 (
+					20091118071905 25094 anak.p20.net.my.
+					Jc8MY3W1QxNXc+mjQYqQPHjIXt/NkjFpsgs2
+					GwZiMzhrhk2xvXrGHWPX8LzEQ5o7NQU6DgJK
+					sjjcfV+jvdwpYw== )

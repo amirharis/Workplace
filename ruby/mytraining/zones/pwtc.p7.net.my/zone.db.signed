@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:19:47 2009
+; dnssec_signzone version 9.6.1
+pwtc.p7.net.my.		3600	IN SOA	ns1.pwtc.p7.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					F7riOKD8ANb6dKSZsfDsp6mVff0O3gzMx/lF
+					AVkXdUZM5F5qruaAxmdbnuPECOrWF6FaKJkR
+					R87b3ruk+XTvJg== )
+			3600	NS	ns1.pwtc.p7.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					pg9axc0KX3TnefIFqF3zydUY7iwkl7/dgjnc
+					FfzVWzdIYXPi9xB4FrYwQJR+phHhsuuky62c
+					dKa9Ct+CBp8IqA== )
+			3600	NSEC	ns1.pwtc.p7.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					mflVQUw07BJVmk4Z5b3aEXOFI8ciJKClj3NW
+					2DJgR7p9RDUKGLYRjUOyOQHyqTaUM7VGwqY4
+					rrt7uafD6TD5og== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABwcOiQYKLSH4T4+MBxbCqWaBJ7z+M
+					3XZdzz4/O7kK6MHWfgPbd/LZwyVWruKg8MEY
+					IvNdoPIScEvgWB9JZ/JWvQ==
+					) ; key id = 58790
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDVolkNRm89tPprfxcvRMe0dKf/IG
+					sj51Un4lZaNHLUa0nQudHeQKCEvHtSsTx9yn
+					RoWwtp1USBBgRst9IzuaeTXnr3nLhb9j91gP
+					AeTerLFe0uwUYKLDMVuS25yKoIOHbQkuiMux
+					ahN9G6dhW7btdMzfeHHz13ELa+ogl8nltCpK
+					6eZBOzoanyPokFHkSCitos8nzewXGXu/s2lX
+					l28FMA0u2w==
+					) ; key id = 13824
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071947 (
+					20091118071947 13824 pwtc.p7.net.my.
+					A40c9BS9C/irMnhdV7+JZ4YxdtfXNY450vFn
+					YcWwL72juAVCodhVaG8ei0bB0cUVZfbqkYdc
+					MJJcC+/ODNFB/JYGnfq2z+UtQz/sMwjIGgBs
+					PQhcXfIAzA1DhiMU1OIpUvrmf31lZvXWUwxr
+					gncizOktH/vxtjry/GySxtXOk72dkRTLM8Er
+					DIVCOE6b5ACWFkazUxZ0IjDyCY8xoYlx3MXK
+					3A== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					WNVc/8q4Dd9NBpV/6ax6q5heSk2v/A/4hhEp
+					wmoRWSGhJnJcr/ZP4WKFmdshAv0d85QcTcWc
+					Q8LMrQYlYr8x1Q== )
+ns1.pwtc.p7.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					mqOLXyE4UjZDwNqJNTjWNQ07xxN8sk8oYC7d
+					z5O8ycJsEoNvfZNQIfrn8ELPTLZzsE76iQ8/
+					f8l/PVcBqTZyYw== )
+			3600	NSEC	test.pwtc.p7.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					ky55U1sxgqEjJWa/zlC5It5MiyII6wtymds1
+					H5012QYUnyH1K35a4DqsVjuLjf4uNPPFUThy
+					alCRKUmdhU/sqA== )
+test.pwtc.p7.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					DqdiCNv2f5S48FX3QLQWjtAwYre9CwboFglY
+					DqoLLykSkGzOpRnwPbwRITykt1jHt9HiXHw1
+					u5TwQaL4ngjNCg== )
+			3600	NSEC	pwtc.p7.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071947 (
+					20091118071947 58790 pwtc.p7.net.my.
+					rQsoRqV544yw5K9x4uwAnXpma6fO0nJSVpNR
+					IGKPoD7Q9MBBhVY+FNVsEMTqqwFIOPNHdQ4Q
+					zgntgncHDRFciA== )

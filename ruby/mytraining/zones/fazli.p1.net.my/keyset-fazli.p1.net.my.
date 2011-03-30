@@ -1,0 +1,10 @@
+$ORIGIN .
+fazli.p1.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDw6LVS80LlODcvOD9/otu2gAtDw9
+					obmNgwk0HPhizAgOap4rn6p3YWzKDKSlesWZ
+					s/QBLN4aO07pKtgR5pRt5ru9i6p3GxF/8LZi
+					Ff08mPdqmU0hTf8DkhstkAPxEI2XZ4esNmWB
+					FPx3R2QU2hGEzQAmbs0M1wddXb/Y2MGdmSUd
+					GPbjav4qzJ0DgBS463BxkTh9piJD8/l8tDxA
+					Oy+R0G+svw==
+					) ; key id = 19488

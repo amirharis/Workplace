@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:10 2009
+; dnssec_signzone version 9.6.1
+sub.p15.net.my.		3600	IN SOA	ns1.sub.p15.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					wGirWEESaPVmZbmuH3sR8FY85ueGXLN4vg8q
+					gnSZHRzxx9KCzEgyaxbCnAeRo3bBV9suKG9s
+					KbSjHE5eXd+zzQ== )
+			3600	NS	ns1.sub.p15.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					KR87z9fOeF6uBuNrgZy6P7wcqwilu673KJo8
+					1MgAOzX1yg4G/st/vQUxsWal5c3525ElAuPa
+					6wiiLueMoid/oQ== )
+			3600	NSEC	ns1.sub.p15.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					D0AA+XESRXummFUCwtV5xLH6Eg7XSNdf1NZH
+					aWRcIKA2rXuz7VW3ilpYm1Uq0/Lo4gBxVJ5h
+					XV6YgzxV/ggaXw== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABwclCYqlDJsiU+aMH8UKe4XYjuX7R
+					z6pGcmFvKP2Z2EsiDMSt3B4qQQ5ezV6SMnUD
+					T2LRmggGmmBxugTOd7JDLw==
+					) ; key id = 52583
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDRYOU3LO66xRFUgXcxrbx6MI9JVk
+					0k5b2fkOTqv4U71UEbMCqb4gPX3XDkdNDpy3
+					h3KuzTwTsHT8kORIiYWnPBOQ1StNQYxwOaqK
+					lu5LEvjf2XGQK1/geSIWAm5rg4fy74N+Xu3d
+					sbIJWcG4M1U4zG4LHtAGl+2W63SH6V2vLk1v
+					dvLmuzf762P7FA8CUyFMUTacvDBkA3GJjNPl
+					zvylNtR40w==
+					) ; key id = 11115
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071810 (
+					20091118071810 11115 sub.p15.net.my.
+					CIu+SLlksPRUF5d2ztqdlr0hTAI4pD2gWaBc
+					QUDTLiTrPFTsUsmDBZNVedXdGwty8VoolmMK
+					aKZjOIYk94d+5UwVoMvycrp77czIt02RAWdq
+					16rVQDx1jdX7CoLP/UsiNtOcheCARZIsqNLn
+					Ii3hT29Z2LMMBIDcKvlsNrzl65i16oC3F6P0
+					ujjzTsA4Gonopvf1qSMvilngqV+NIy7ENJ9U
+					bg== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					Uk6eqUOTbuxmxwk2VG4dQ5VXTcyQUuYR7ZtF
+					ceCeM29tgozugC3XzuNoxpCRe8Zj/ZdJ3H3c
+					AJmeBUv7luYXng== )
+ns1.sub.p15.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					UpHcb/Jt5NkTYNw9yf1Idfj1oHxu+nvO+mtg
+					1WXArGikY3fu49jjcvayVaU5gGg9Y/ruWQPg
+					zmEsI7XVILm7mA== )
+			3600	NSEC	test.sub.p15.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					WXl2AMLloRG5u5V2RnD+WJ7SwATaqQXKDttB
+					zOGaYKJ2ZC23Cf1jK4ehqj9gifhKwypzkSRL
+					d/tkgbbtZYe6rg== )
+test.sub.p15.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					VqO4qBdM2yHq6W3lHA1j4lasLXumxwxdkYe3
+					W+VAQ7qxpfxAC/VScNKAVxLPPfmwqM+b5gG4
+					KGkW6lDd5UvSKg== )
+			3600	NSEC	sub.p15.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071810 (
+					20091118071810 52583 sub.p15.net.my.
+					tk6E/7NSiCYLDQocFEnp98aK1rU9SElNEtmw
+					p8sQFE64WG/qBOMo8DsyNVRq2PIun7CnLZnV
+					Mt69SFsaiGX65g== )

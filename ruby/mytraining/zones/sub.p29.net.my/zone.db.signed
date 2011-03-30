@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:21:33 2009
+; dnssec_signzone version 9.6.1
+sub.p29.net.my.		3600	IN SOA	ns1.sub.p29.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					dFYATKKauAT3C67IQBfLvUqQcYr++wMaYH6Q
+					gXcRJEoBQNS445xwhvAvkOrPEw7SwQNJN5Hl
+					9NY5nWfZDPR9WQ== )
+			3600	NS	ns1.sub.p29.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					XBRxe510zJJC64e2EzV5PIRjqfQPubrAIN+2
+					5tgpquaAfyJ7lcGKnQLkbEFV4CsKFngVzhZP
+					VdYGVfTLL3agWw== )
+			3600	NSEC	ns1.sub.p29.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					aC+OCYjqQmgE8bd+ovlNiK8iDyaeI2E1S5mc
+					PrGSV30+CJoxvgCpoUIlYFYUysQt4j2d0WsA
+					QG2Ip2pEgrq81A== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABn5XSCOQ9WHgmKyNBNvZFdTCV1T96
+					5S3bFcQl77yl7EZIeHEW1Ux0+EMuCCWZeFFX
+					5iyLmMu7FZvWTI4L1B5KdQ==
+					) ; key id = 8297
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDXghFk+Rr2ukzYo4nmnC3XBflnHv
+					ZNCHssA6MuIzRYGlodVkMe/p8cOGv2ZmhoHy
+					8cjCmuHah07fl5K2ZbYmFkPw61JNMQNhttgq
+					Oh9/foP+MpENI3ZqRO131bH238aYTbhmhLk8
+					3uXQWXT6nmw/IIPX7KRwVI4m9Iq/flo5uuyI
+					/m3zcHw+yiy0fhWeWaJV7puDjQ+1AUp49jKO
+					iPI2ZhU9+Q==
+					) ; key id = 37410
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					L+NnhYPZGkfiR3d5MAx9MaU0Bh1qzXh2Y9D0
+					QFpwCWOiS3U7YVcxOhr18pNCl7EyQzXoR36L
+					etOppFS8whA+Nw== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128072133 (
+					20091118072133 37410 sub.p29.net.my.
+					BIjJs9EaGONiVMX5Ab6AZp1FosMfFQ5vrM0z
+					qPee7QI4eM12tWzfVld3rWnGl+p3a8Tsbhph
+					+txb+HlwmbEbxFOE1bazxTQkNmpB7ah1qRH8
+					Cs4u1B9rg6wnv+Uhd0WMIO9xUvbHXmc/Em8m
+					aecmPkAEvRuy420fEsT0cbioj5Xi6TL4NhYs
+					PPVJR7/zquRUjR1AlKmIO4VD28AYRtEeglwb
+					Dg== )
+ns1.sub.p29.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					DblXfk3Tk+narGJTDSmlaVk91CAfWX9P2Hf5
+					qst9onNUh8HUFtorKPMNv588d/hz58vIrW/L
+					276zak0c4zVIkA== )
+			3600	NSEC	test.sub.p29.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					fgvWmmigMnaz31h4YdtnFgoIyi5ui+XLET1Q
+					5hwCsfWA7py/jiuvOzXD49FLuG7s23ncCA9b
+					YRGjAs4x2iSXQA== )
+test.sub.p29.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					EwA3U/oHH9RpHB9YikFYLRzWEJwPO1oILqaj
+					kdQsmni9ObVzhBKqkIptfN8BSdIsmqDAcBbm
+					HsdeBSl/pSawoQ== )
+			3600	NSEC	sub.p29.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128072133 (
+					20091118072133 8297 sub.p29.net.my.
+					aabEH+0Wy6V6bqD3fGqefESljUmtGJlaEUL6
+					x6AwyCaKlXxWiauubr8ewXxwrjJqv08IWdfD
+					pohRd1dz6WYerQ== )

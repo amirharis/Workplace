@@ -1,0 +1,78 @@
+; File written on Wed Nov 18 16:18:34 2009
+; dnssec_signzone version 9.6.1
+itsme.p22.net.my.	3600	IN SOA	ns1.itsme.p22.net.my. tni.domainregistry.my. (
+					2009111801 ; serial
+					7200       ; refresh (2 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					3600       ; minimum (1 hour)
+					)
+			3600	RRSIG	SOA 5 4 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					f8KUTm8g/Rp/DErynkxTv9PtXQSN6JXBq9rA
+					s3JDjWZtY8cTHacGd7slU71s6qDOH6Zqehjq
+					A6Vxbayf8s2vwg== )
+			3600	NS	ns1.itsme.p22.net.my.
+			3600	RRSIG	NS 5 4 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					lLUCwQ/EZ9eAcyXwUpdvYuKIkoz0kk++ED8a
+					LJrFy5yMQLEuER2D1lBZKLiwCUYrdTAmllxw
+					uu5Mlxn2CwXREQ== )
+			3600	NSEC	ns1.itsme.p22.net.my. NS SOA RRSIG NSEC DNSKEY
+			3600	RRSIG	NSEC 5 4 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					FjO55vIhinis0k8s8rpSNaWGiNP0vkqfZuzb
+					lz9oPNk02BFw7dSbj9NvvhLeJm4VYoZmb5l1
+					1ROGGwpinaBVeg== )
+			14400	DNSKEY	256 3 5 (
+					BQEAAAABoscXtfUAio8qLwW2+DfHKaCxaoVL
+					6FDkEpMNWy2km5aMzgVUeCEQl72cmwGATBmS
+					dLUW45qFbWlghGtXc2J/OQ==
+					) ; key id = 8927
+			14400	DNSKEY	257 3 5 (
+					BQEAAAABDNavnhz/iEdRQcze0ZSicoZdKsFJ
+					63jpjxaKm2cE3BvwjSs90MwhdhzE3wdVH4Uq
+					eWAUmJWK/kH9VDwbc5/233w55NPhR9M02+Fb
+					JMdaIZ3Z3oEjRqJkvkXqITo9IklscjS2wavw
+					/UBr0Fzk3EtETdh15RhNBmg1HFxVTcFn16W7
+					DjRIz1NZuauzcuoBM9ibJwkbYz0dvoNF79bS
+					UgRWURzEPQ==
+					) ; key id = 18393
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					a2nAN/OgkO33Wu9E1WIa6sllKR1vuiqT62Ut
+					z4V1ahiFFInr4rSiL3gbp8lJjBUlRK2WASzw
+					YpPK2a3fsLeapA== )
+			14400	RRSIG	DNSKEY 5 4 14400 20091128071834 (
+					20091118071834 18393 itsme.p22.net.my.
+					BgSvwx3gMLE8a2EJQjxIUF9dsPRVTn/GBuO7
+					3YU50WnKqN7Sse52Gosxt9A4rMXaXhU4khTu
+					VbCYucFfCN4u+10n/PQkVOirclxN4W0tUKug
+					7vaNBeh8jV5G/s9RZB0pzJLHDUYxNBpP+LrW
+					ZoxOA4BKxFQJ8Sovto4p36MzFZMfCijV0W8W
+					r6d+6b478DFDTx9eJ93mpGSkRv28E6v7SOGY
+					zw== )
+ns1.itsme.p22.net.my.	3600	IN A	192.168.118.138
+			3600	RRSIG	A 5 5 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					f56RhcQUjNiwsA5O5qY6jzh3CzTqRGdjMCLD
+					JyF/FMtTkW7BTKs8yjSF7V2pzna78lbkI5VK
+					W1Coe+8CK3Co/A== )
+			3600	NSEC	test.itsme.p22.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					XVtHfLgG+PfZhu+ezKsiOB/7hZNRLfWkZeSY
+					0hftqndVin+uiu2SDg9SXD1ZSIekhUstwGtp
+					GSaChy0UBqDQ7g== )
+test.itsme.p22.net.my.	3600	IN A	192.168.1.222
+			3600	RRSIG	A 5 5 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					dLO89b6sVxYVWo5IIdnTuUdJalHKIpkWZjz4
+					fLbhP4h6fdCDsGLCgZxgvqHz1Xj2Y0KD8IJn
+					g0xjTKYVXRrVWA== )
+			3600	NSEC	itsme.p22.net.my. A RRSIG NSEC
+			3600	RRSIG	NSEC 5 5 3600 20091128071834 (
+					20091118071834 8927 itsme.p22.net.my.
+					UlAj1EgMeAYLjmbn6sABYqFQYJrR7PjuGVM0
+					le0nElUmqC4x/JrIwcrTuhP06syN0KnjHnDa
+					/1SF2rq7FOlu0A== )

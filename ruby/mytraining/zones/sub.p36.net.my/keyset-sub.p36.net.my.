@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p36.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDCU7tgEsxrkjT20u/FIaeAGktrp2
+					SBF1C6B/0aG3+F/VY3Ba2CwQoLtLpdgMUGjb
+					UJHKtJKO/1LS07imoelHYigRANESQekCnNJB
+					/ypq1THLt+WCjwl7e6W0fxE4+F2Yo8Y+1jmH
+					mgn1sTs3sTBK1j7oUnM+/yxkYg2nnHc/bZms
+					jW+/gN9Ux7EGvW4H6S1K07NHTM6UkUuaHvy1
+					u1tP0X3WBw==
+					) ; key id = 52191

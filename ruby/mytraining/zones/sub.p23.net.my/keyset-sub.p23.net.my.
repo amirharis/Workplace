@@ -1,0 +1,10 @@
+$ORIGIN .
+sub.p23.net.my		3600	IN DNSKEY 257 3 5 (
+					BQEAAAABDwhnULNdoSRiG45uLKtGdlhDitZm
+					wzxuEtYS4Eu9BHfxfzGjo23wKJMMw17EX4tE
+					8EjUZpJ6lCPM+SCclm7/WpTmNjmT6B0BAHA2
+					sC5H4HsgtvdQ2afkgIgHMDSvqKM4heG3By+1
+					miBCj8AiYMwrzMSvTEJRBbSNxMuJKcEiWu5c
+					D+suJ1RphBo3POaklUw0xIYjdurnc9+GGgNv
+					t6jadrmDgQ==
+					) ; key id = 30201
