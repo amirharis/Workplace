@@ -1,6 +1,5 @@
 class LaunchpadController < ApplicationController
   def jump
-   
      shortcode = params[:my_id]
      
      if request.subdomain.empty?
